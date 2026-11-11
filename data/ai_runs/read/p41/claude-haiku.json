@@ -1,0 +1,26 @@
+{
+ "photo": "p41",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:20:02",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "dcaff050731e518a",
+ "user": "Photo p41, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "```json\n{\"fields\": {\"model\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"volts\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"phase\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"amps\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"mca\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"max_breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"capacity\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"refrigerant\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"breaker\": {\"status\": \"read\", \"value\": \"15\", \"label\": null, \"box\": [0.441, 0.474, 0.503, 0.531]}}}\n```",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 2975,
+ "meta": {
+  "ms": 2970,
+  "input_tokens": 3505,
+  "output_tokens": 571,
+  "cost_usd": 0.000636,
+  "models": [
+   "claude-haiku-5-5"
+  ],
+  "stop_reason": "end_turn"
+ },
+ "redacted": 0
+}

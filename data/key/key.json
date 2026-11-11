@@ -1,0 +1,2548 @@
+{
+ "confirmed_by": "construction: each value is the one the renderer drew",
+ "dropped": {},
+ "made_from": "generate/plates.json",
+ "photos": {
+  "p01": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": {
+     "box": [
+      0.3995,
+      0.445,
+      0.4223,
+      0.4661
+     ],
+     "canon": "25",
+     "value": "25"
+    },
+    "mca": {
+     "box": [
+      0.3995,
+      0.3993,
+      0.4358,
+      0.4204
+     ],
+     "canon": "18.6",
+     "value": "18.6"
+    },
+    "model": {
+     "box": [
+      0.3992,
+      0.262,
+      0.5179,
+      0.2836
+     ],
+     "canon": "HPA436B2C",
+     "value": "HPA4-36B2C"
+    },
+    "phase": {
+     "box": [
+      0.4856,
+      0.3522,
+      0.4934,
+      0.3775
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": {
+     "box": [
+      0.3999,
+      0.6275,
+      0.4683,
+      0.6486
+     ],
+     "canon": "R454B",
+     "value": "R-454B"
+    },
+    "volts": {
+     "box": [
+      0.3994,
+      0.3523,
+      0.4771,
+      0.3779
+     ],
+     "canon": "208/230",
+     "value": "208/230"
+    }
+   },
+   "kind": "heat pump",
+   "plate": "heat-pump",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p02": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": {
+     "box": [
+      0.4452,
+      0.4761,
+      0.4697,
+      0.4978
+     ],
+     "canon": "25",
+     "value": "25"
+    },
+    "mca": {
+     "box": [
+      0.442,
+      0.4336,
+      0.4801,
+      0.4565
+     ],
+     "canon": "18.6",
+     "value": "18.6"
+    },
+    "model": {
+     "box": [
+      0.4323,
+      0.3058,
+      0.5507,
+      0.3326
+     ],
+     "canon": "HPA436B2C",
+     "value": "HPA4-36B2C"
+    },
+    "phase": {
+     "box": [
+      0.5244,
+      0.3864,
+      0.5337,
+      0.4094
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": {
+     "box": [
+      0.4582,
+      0.6322,
+      0.5276,
+      0.6631
+     ],
+     "canon": "R454B",
+     "value": "R-454B"
+    },
+    "volts": {
+     "box": [
+      0.4387,
+      0.3879,
+      0.5179,
+      0.418
+     ],
+     "canon": "208/230",
+     "value": "208/230"
+    }
+   },
+   "kind": "heat pump",
+   "plate": "heat-pump",
+   "shot": "angled",
+   "split": "test"
+  },
+  "p03": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": {
+     "box": [
+      0.3955,
+      0.4242,
+      0.4197,
+      0.4467
+     ],
+     "canon": "25",
+     "value": "25"
+    },
+    "mca": {
+     "box": [
+      0.3944,
+      0.3768,
+      0.4327,
+      0.3998
+     ],
+     "canon": "18.6",
+     "value": "18.6"
+    },
+    "model": {
+     "box": [
+      0.391,
+      0.2335,
+      0.5145,
+      0.2591
+     ],
+     "canon": "HPA436B2C",
+     "value": "HPA4-36B2C"
+    },
+    "phase": {
+     "box": [
+      0.4827,
+      0.3265,
+      0.4914,
+      0.3527
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": {
+     "box": [
+      0.4001,
+      0.6094,
+      0.4715,
+      0.6343
+     ],
+     "canon": "R454B",
+     "value": "R-454B"
+    },
+    "volts": {
+     "box": [
+      0.3933,
+      0.3271,
+      0.4745,
+      0.3561
+     ],
+     "canon": "208/230",
+     "value": "208/230"
+    }
+   },
+   "kind": "heat pump",
+   "plate": "heat-pump",
+   "shot": "glare",
+   "split": "test"
+  },
+  "p04": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": {
+     "box": [
+      0.4343,
+      0.5703,
+      0.4547,
+      0.5915
+     ],
+     "canon": "15",
+     "value": "15"
+    },
+    "mca": {
+     "box": [
+      0.4343,
+      0.5241,
+      0.4591,
+      0.5453
+     ],
+     "canon": "9.1",
+     "value": "9.1"
+    },
+    "model": {
+     "box": [
+      0.4342,
+      0.2931,
+      0.543,
+      0.3145
+     ],
+     "canon": "AHV24C3B",
+     "value": "AHV24C3B"
+    },
+    "phase": {
+     "box": [
+      0.4342,
+      0.4318,
+      0.4426,
+      0.453
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.4342,
+      0.3843,
+      0.5175,
+      0.41
+     ],
+     "canon": "208/230",
+     "value": "208/230"
+    }
+   },
+   "kind": "air handler",
+   "plate": "air-handler",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p05": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": {
+     "box": [
+      0.4228,
+      0.6307,
+      0.4444,
+      0.6532
+     ],
+     "canon": "15",
+     "value": "15"
+    },
+    "mca": {
+     "box": [
+      0.4228,
+      0.5819,
+      0.4491,
+      0.6043
+     ],
+     "canon": "9.1",
+     "value": "9.1"
+    },
+    "model": {
+     "box": [
+      0.4228,
+      0.3372,
+      0.538,
+      0.3599
+     ],
+     "canon": "AHV24C3B",
+     "value": "AHV24C3B"
+    },
+    "phase": {
+     "box": [
+      0.4228,
+      0.4841,
+      0.4316,
+      0.5066
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.4228,
+      0.4338,
+      0.5109,
+      0.461
+     ],
+     "canon": "208/230",
+     "value": "208/230"
+    }
+   },
+   "kind": "air handler",
+   "plate": "air-handler",
+   "shot": "low light",
+   "split": "test"
+  },
+  "p06": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": {
+     "box": [
+      0.4195,
+      0.4556,
+      0.4936,
+      0.4866
+     ],
+     "canon": "50 GAL",
+     "value": "50 GAL"
+    },
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.4204,
+      0.3613,
+      0.5191,
+      0.3855
+     ],
+     "canon": "EWH50T2",
+     "value": "EWH-50T2"
+    },
+    "phase": {
+     "box": [
+      0.4186,
+      0.5565,
+      0.4311,
+      0.5791
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.419,
+      0.5077,
+      0.4562,
+      0.5308
+     ],
+     "canon": "240",
+     "value": "240"
+    }
+   },
+   "kind": "water heater",
+   "plate": "water-heater",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p07": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": {
+     "box": [
+      0.3975,
+      0.4445,
+      0.4657,
+      0.4726
+     ],
+     "canon": "50 GAL",
+     "value": "50 GAL"
+    },
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.3967,
+      0.3596,
+      0.488,
+      0.3836
+     ],
+     "canon": "EWH50T2",
+     "value": "EWH-50T2"
+    },
+    "phase": {
+     "box": [
+      0.3984,
+      0.5348,
+      0.4097,
+      0.5546
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.398,
+      0.4915,
+      0.4319,
+      0.5118
+     ],
+     "canon": "240",
+     "value": "240"
+    }
+   },
+   "kind": "water heater",
+   "plate": "water-heater",
+   "shot": "angled",
+   "split": "test"
+  },
+  "p08": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.2506,
+      0.6011,
+      0.2842,
+      0.6282
+     ],
+     "canon": "24",
+     "value": "24"
+    },
+    "breaker": null,
+    "capacity": {
+     "box": [
+      0.2499,
+      0.5435,
+      0.3506,
+      0.5728
+     ],
+     "canon": "5.6 KW",
+     "value": "5600 W"
+    },
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.2478,
+      0.3746,
+      0.3751,
+      0.4041
+     ],
+     "canon": "DRY27E2",
+     "value": "DRY-27E2"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.1221,
+      0.4896,
+      0.2271,
+      0.5228
+     ],
+     "canon": "120/240",
+     "value": "120/240"
+    }
+   },
+   "kind": "dryer",
+   "plate": "dryer",
+   "shot": "glare",
+   "split": "test"
+  },
+  "p09": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.2357,
+      0.6071,
+      0.2701,
+      0.6348
+     ],
+     "canon": "24",
+     "value": "24"
+    },
+    "breaker": null,
+    "capacity": {
+     "box": [
+      0.235,
+      0.5485,
+      0.3379,
+      0.5785
+     ],
+     "canon": "5.6 KW",
+     "value": "5600 W"
+    },
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.2327,
+      0.3775,
+      0.3626,
+      0.4071
+     ],
+     "canon": "DRY27E2",
+     "value": "DRY-27E2"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.1035,
+      0.494,
+      0.2115,
+      0.528
+     ],
+     "canon": "120/240",
+     "value": "120/240"
+    }
+   },
+   "kind": "dryer",
+   "plate": "dryer",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p10": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.2917,
+      0.6362,
+      0.3279,
+      0.6657
+     ],
+     "canon": "24",
+     "value": "24"
+    },
+    "breaker": null,
+    "capacity": {
+     "box": [
+      0.2882,
+      0.5754,
+      0.3924,
+      0.614
+     ],
+     "canon": "5.6 KW",
+     "value": "5600 W"
+    },
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.2774,
+      0.4195,
+      0.4083,
+      0.4565
+     ],
+     "canon": "DRY27E2",
+     "value": "DRY-27E2"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.1474,
+      0.5387,
+      0.2628,
+      0.5818
+     ],
+     "canon": "120/240",
+     "value": "120/240"
+    }
+   },
+   "kind": "dryer",
+   "plate": "dryer",
+   "shot": "angled",
+   "split": "test"
+  },
+  "p11": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.276,
+      0.4869,
+      0.3419,
+      0.5146
+     ],
+     "canon": "12",
+     "value": "12.0A"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.2317,
+      0.372,
+      0.3394,
+      0.4004
+     ],
+     "canon": "DW24P7",
+     "value": "DW-24P7"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.1307,
+      0.4835,
+      0.1911,
+      0.5111
+     ],
+     "canon": "120",
+     "value": "120V"
+    }
+   },
+   "kind": "dishwasher",
+   "plate": "dishwasher",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p12": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.266,
+      0.5094,
+      0.329,
+      0.5368
+     ],
+     "canon": "12",
+     "value": "12.0A"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.2204,
+      0.3994,
+      0.323,
+      0.4277
+     ],
+     "canon": "DW24P7",
+     "value": "DW-24P7"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.129,
+      0.5143,
+      0.1859,
+      0.5414
+     ],
+     "canon": "120",
+     "value": "120V"
+    }
+   },
+   "kind": "dishwasher",
+   "plate": "dishwasher",
+   "shot": "low light",
+   "split": "test"
+  },
+  "p13": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": {
+     "box": [
+      0.2422,
+      0.5242,
+      0.3338,
+      0.5519
+     ],
+     "canon": "12.2 KW",
+     "value": "12.2 KW"
+    },
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.2429,
+      0.358,
+      0.355,
+      0.3853
+     ],
+     "canon": "ERG30S1",
+     "value": "ERG-30S1"
+    },
+    "phase": {
+     "box": [
+      0.1264,
+      0.4673,
+      0.1362,
+      0.4978
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.1264,
+      0.4673,
+      0.2184,
+      0.4985
+     ],
+     "canon": "120/240",
+     "value": "120/240"
+    }
+   },
+   "kind": "range",
+   "plate": "range",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p14": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": {
+     "box": [
+      0.2467,
+      0.5804,
+      0.3463,
+      0.6196
+     ],
+     "canon": "12.2 KW",
+     "value": "12.2 KW"
+    },
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.2353,
+      0.4271,
+      0.3562,
+      0.4639
+     ],
+     "canon": "ERG30S1",
+     "value": "ERG-30S1"
+    },
+    "phase": {
+     "box": [
+      0.1093,
+      0.5578,
+      0.123,
+      0.5891
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.1093,
+      0.5455,
+      0.2181,
+      0.5891
+     ],
+     "canon": "120/240",
+     "value": "120/240"
+    }
+   },
+   "kind": "range",
+   "plate": "range",
+   "shot": "angled",
+   "split": "test"
+  },
+  "p15": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.2909,
+      0.5132,
+      0.3424,
+      0.5407
+     ],
+     "canon": "10",
+     "value": "10.0"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.2558,
+      0.3993,
+      0.3706,
+      0.429
+     ],
+     "canon": "WM27F3",
+     "value": "WM-27F3"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.1331,
+      0.5183,
+      0.1786,
+      0.5456
+     ],
+     "canon": "120",
+     "value": "120"
+    }
+   },
+   "kind": "washer",
+   "plate": "washer",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p16": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.2513,
+      0.48,
+      0.3022,
+      0.5063
+     ],
+     "canon": "10",
+     "value": "10.0"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.2192,
+      0.3682,
+      0.3329,
+      0.3947
+     ],
+     "canon": "WM27F3",
+     "value": "WM-27F3"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.0956,
+      0.4784,
+      0.1401,
+      0.5044
+     ],
+     "canon": "120",
+     "value": "120"
+    }
+   },
+   "kind": "washer",
+   "plate": "washer",
+   "shot": "glare",
+   "split": "test"
+  },
+  "p17": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.2942,
+      0.4764,
+      0.3308,
+      0.5028
+     ],
+     "canon": "6.5",
+     "value": "6.5"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.3412,
+      0.3674,
+      0.4448,
+      0.3939
+     ],
+     "canon": "RF36X5",
+     "value": "RF-36X5"
+    },
+    "phase": null,
+    "refrigerant": {
+     "box": [
+      0.3413,
+      0.5307,
+      0.4291,
+      0.5572
+     ],
+     "canon": "R600A",
+     "value": "R-600a"
+    },
+    "volts": {
+     "box": [
+      0.1382,
+      0.4765,
+      0.1737,
+      0.503
+     ],
+     "canon": "115",
+     "value": "115"
+    }
+   },
+   "kind": "refrigerator",
+   "plate": "refrigerator",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p18": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.3104,
+      0.4668,
+      0.3526,
+      0.4974
+     ],
+     "canon": "6.5",
+     "value": "6.5"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.3689,
+      0.365,
+      0.4811,
+      0.4057
+     ],
+     "canon": "RF36X5",
+     "value": "RF-36X5"
+    },
+    "phase": null,
+    "refrigerant": {
+     "box": [
+      0.3595,
+      0.5264,
+      0.4553,
+      0.5611
+     ],
+     "canon": "R600A",
+     "value": "R-600a"
+    },
+    "volts": {
+     "box": [
+      0.1285,
+      0.4463,
+      0.1728,
+      0.4783
+     ],
+     "canon": "115",
+     "value": "115"
+    }
+   },
+   "kind": "refrigerator",
+   "plate": "refrigerator",
+   "shot": "angled",
+   "split": "test"
+  },
+  "p19": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.4121,
+      0.5215,
+      0.4577,
+      0.5506
+     ],
+     "canon": "200",
+     "value": "200"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.4092,
+      0.404,
+      0.5618,
+      0.4384
+     ],
+     "canon": "LC4040B200",
+     "value": "LC4040B200"
+    },
+    "phase": {
+     "box": [
+      0.1015,
+      0.4808,
+      0.1119,
+      0.512
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.1015,
+      0.4769,
+      0.1942,
+      0.512
+     ],
+     "canon": "120/240",
+     "value": "120/240"
+    }
+   },
+   "kind": "panel",
+   "plate": "panel",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p20": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.4073,
+      0.4814,
+      0.4537,
+      0.5108
+     ],
+     "canon": "200",
+     "value": "200"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.4047,
+      0.3624,
+      0.56,
+      0.3967
+     ],
+     "canon": "LC4040B200",
+     "value": "LC4040B200"
+    },
+    "phase": {
+     "box": [
+      0.0918,
+      0.4384,
+      0.1023,
+      0.4701
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.0918,
+      0.4348,
+      0.1859,
+      0.4701
+     ],
+     "canon": "120/240",
+     "value": "120/240"
+    }
+   },
+   "kind": "panel",
+   "plate": "panel",
+   "shot": "low light",
+   "split": "test"
+  },
+  "p21": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.3825,
+      0.4505,
+      0.4329,
+      0.4771
+     ],
+     "canon": "13",
+     "value": "13.0"
+    },
+    "breaker": null,
+    "capacity": {
+     "box": [
+      0.2757,
+      0.4501,
+      0.3689,
+      0.477
+     ],
+     "canon": "1.5 KW",
+     "value": "1500 W"
+    },
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.232,
+      0.3396,
+      0.356,
+      0.367
+     ],
+     "canon": "MW30H1",
+     "value": "MW-30H1"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.0879,
+      0.4495,
+      0.1322,
+      0.4764
+     ],
+     "canon": "120",
+     "value": "120"
+    }
+   },
+   "kind": "microwave",
+   "plate": "microwave",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p22": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.389,
+      0.4873,
+      0.4387,
+      0.5178
+     ],
+     "canon": "13",
+     "value": "13.0"
+    },
+    "breaker": null,
+    "capacity": {
+     "box": [
+      0.2917,
+      0.4954,
+      0.3779,
+      0.53
+     ],
+     "canon": "1.5 KW",
+     "value": "1500 W"
+    },
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.2466,
+      0.398,
+      0.3588,
+      0.4388
+     ],
+     "canon": "MW30H1",
+     "value": "MW-30H1"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.1338,
+      0.5228,
+      0.1712,
+      0.5499
+     ],
+     "canon": "120",
+     "value": "120"
+    }
+   },
+   "kind": "microwave",
+   "plate": "microwave",
+   "shot": "angled",
+   "split": "test"
+  },
+  "p23": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": {
+     "box": [
+      0.4715,
+      0.6081,
+      0.5356,
+      0.6301
+     ],
+     "canon": "65 GAL",
+     "value": "65 GAL"
+    },
+    "max_breaker": {
+     "box": [
+      0.472,
+      0.5622,
+      0.4958,
+      0.5837
+     ],
+     "canon": "30",
+     "value": "30"
+    },
+    "mca": {
+     "box": [
+      0.4724,
+      0.5163,
+      0.5085,
+      0.538
+     ],
+     "canon": "16.2",
+     "value": "16.2"
+    },
+    "model": {
+     "box": [
+      0.4739,
+      0.3785,
+      0.5757,
+      0.402
+     ],
+     "canon": "HPWH65A",
+     "value": "HPWH-65A"
+    },
+    "phase": {
+     "box": [
+      0.2284,
+      0.464,
+      0.2365,
+      0.4899
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": {
+     "box": [
+      0.471,
+      0.654,
+      0.5333,
+      0.6765
+     ],
+     "canon": "R134A",
+     "value": "R-134a"
+    },
+    "volts": {
+     "box": [
+      0.1216,
+      0.4618,
+      0.2011,
+      0.4892
+     ],
+     "canon": "208/240",
+     "value": "208/240"
+    }
+   },
+   "kind": "water heater",
+   "plate": "heat-pump-water-heater",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p24": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": {
+     "box": [
+      0.4665,
+      0.5638,
+      0.5328,
+      0.5882
+     ],
+     "canon": "65 GAL",
+     "value": "65 GAL"
+    },
+    "max_breaker": {
+     "box": [
+      0.4653,
+      0.5183,
+      0.4901,
+      0.541
+     ],
+     "canon": "30",
+     "value": "30"
+    },
+    "mca": {
+     "box": [
+      0.4642,
+      0.4704,
+      0.5015,
+      0.4938
+     ],
+     "canon": "16.2",
+     "value": "16.2"
+    },
+    "model": {
+     "box": [
+      0.4606,
+      0.3252,
+      0.566,
+      0.3521
+     ],
+     "canon": "HPWH65A",
+     "value": "HPWH-65A"
+    },
+    "phase": {
+     "box": [
+      0.2172,
+      0.4345,
+      0.2256,
+      0.4608
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": {
+     "box": [
+      0.4677,
+      0.6112,
+      0.5321,
+      0.6361
+     ],
+     "canon": "R134A",
+     "value": "R-134a"
+    },
+    "volts": {
+     "box": [
+      0.1128,
+      0.4361,
+      0.1907,
+      0.4655
+     ],
+     "canon": "208/240",
+     "value": "208/240"
+    }
+   },
+   "kind": "water heater",
+   "plate": "heat-pump-water-heater",
+   "shot": "glare",
+   "split": "test"
+  },
+  "p25": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": {
+     "box": [
+      0.4822,
+      0.6141,
+      0.5468,
+      0.6361
+     ],
+     "canon": "65 GAL",
+     "value": "65 GAL"
+    },
+    "max_breaker": {
+     "box": [
+      0.4825,
+      0.5675,
+      0.5064,
+      0.5892
+     ],
+     "canon": "30",
+     "value": "30"
+    },
+    "mca": {
+     "box": [
+      0.4828,
+      0.5209,
+      0.5191,
+      0.5427
+     ],
+     "canon": "16.2",
+     "value": "16.2"
+    },
+    "model": {
+     "box": [
+      0.4837,
+      0.3812,
+      0.5865,
+      0.4041
+     ],
+     "canon": "HPWH65A",
+     "value": "HPWH-65A"
+    },
+    "phase": {
+     "box": [
+      0.2379,
+      0.47,
+      0.2459,
+      0.496
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": {
+     "box": [
+      0.4819,
+      0.6607,
+      0.5447,
+      0.6832
+     ],
+     "canon": "R134A",
+     "value": "R-134a"
+    },
+    "volts": {
+     "box": [
+      0.1316,
+      0.4686,
+      0.2105,
+      0.4956
+     ],
+     "canon": "208/240",
+     "value": "208/240"
+    }
+   },
+   "kind": "water heater",
+   "plate": "heat-pump-water-heater",
+   "shot": "low light",
+   "split": "test"
+  },
+  "p26": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.4742,
+      0.5593,
+      0.509,
+      0.5824
+     ],
+     "canon": "7.6",
+     "value": "7.6"
+    },
+    "breaker": null,
+    "capacity": {
+     "box": [
+      0.4723,
+      0.4573,
+      0.6107,
+      0.4915
+     ],
+     "canon": "80000 BTUH",
+     "value": "80,000 BTU/H"
+    },
+    "max_breaker": {
+     "box": [
+      0.475,
+      0.6075,
+      0.4984,
+      0.6301
+     ],
+     "canon": "15",
+     "value": "15"
+    },
+    "mca": null,
+    "model": {
+     "box": [
+      0.4706,
+      0.3658,
+      0.5859,
+      0.3915
+     ],
+     "canon": "GF96080C3",
+     "value": "GF96-080C3"
+    },
+    "phase": {
+     "box": [
+      0.1287,
+      0.5237,
+      0.1406,
+      0.546
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.1287,
+      0.5229,
+      0.1636,
+      0.546
+     ],
+     "canon": "115",
+     "value": "115"
+    }
+   },
+   "kind": "furnace",
+   "plate": "furnace",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p27": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.4424,
+      0.5193,
+      0.4758,
+      0.541
+     ],
+     "canon": "7.6",
+     "value": "7.6"
+    },
+    "breaker": null,
+    "capacity": {
+     "box": [
+      0.4444,
+      0.4299,
+      0.5795,
+      0.4623
+     ],
+     "canon": "80000 BTUH",
+     "value": "80,000 BTU/H"
+    },
+    "max_breaker": {
+     "box": [
+      0.4414,
+      0.5625,
+      0.4637,
+      0.5838
+     ],
+     "canon": "15",
+     "value": "15"
+    },
+    "mca": null,
+    "model": {
+     "box": [
+      0.4466,
+      0.3464,
+      0.5586,
+      0.3687
+     ],
+     "canon": "GF96080C3",
+     "value": "GF96-080C3"
+    },
+    "phase": {
+     "box": [
+      0.1386,
+      0.4624,
+      0.1486,
+      0.4814
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.1386,
+      0.4624,
+      0.1678,
+      0.4824
+     ],
+     "canon": "115",
+     "value": "115"
+    }
+   },
+   "kind": "furnace",
+   "plate": "furnace",
+   "shot": "angled",
+   "split": "test"
+  },
+  "p28": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.3457,
+      0.4519,
+      0.3966,
+      0.4804
+     ],
+     "canon": "12.5",
+     "value": "12.5"
+    },
+    "breaker": null,
+    "capacity": {
+     "box": [
+      0.2442,
+      0.4472,
+      0.3348,
+      0.4776
+     ],
+     "canon": "1.5 KW",
+     "value": "1500 W"
+    },
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.1992,
+      0.3876,
+      0.2897,
+      0.4183
+     ],
+     "canon": "SH15C",
+     "value": "SH-15C"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.0715,
+      0.4392,
+      0.1175,
+      0.4678
+     ],
+     "canon": "120",
+     "value": "120"
+    }
+   },
+   "kind": "other",
+   "plate": "space-heater",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p29": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.3572,
+      0.4508,
+      0.4028,
+      0.479
+     ],
+     "canon": "12.5",
+     "value": "12.5"
+    },
+    "breaker": null,
+    "capacity": {
+     "box": [
+      0.2717,
+      0.4582,
+      0.3489,
+      0.4902
+     ],
+     "canon": "1.5 KW",
+     "value": "1500 W"
+    },
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.2307,
+      0.4158,
+      0.3058,
+      0.4483
+     ],
+     "canon": "SH15C",
+     "value": "SH-15C"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.136,
+      0.4822,
+      0.172,
+      0.5079
+     ],
+     "canon": "120",
+     "value": "120"
+    }
+   },
+   "kind": "other",
+   "plate": "space-heater",
+   "shot": "angled",
+   "split": "test"
+  },
+  "p30": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": {
+     "box": [
+      0.271,
+      0.5515,
+      0.2965,
+      0.5745
+     ],
+     "canon": "20",
+     "value": "20"
+    },
+    "mca": {
+     "box": [
+      0.2698,
+      0.5034,
+      0.3083,
+      0.527
+     ],
+     "canon": "15.2",
+     "value": "15.2"
+    },
+    "model": {
+     "box": [
+      0.266,
+      0.3577,
+      0.3692,
+      0.3845
+     ],
+     "canon": "CA1324A1",
+     "value": "CA13-24A1"
+    },
+    "phase": {
+     "box": [
+      0.3596,
+      0.4516,
+      0.3685,
+      0.4784
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": {
+     "box": [
+      0.2748,
+      0.692,
+      0.3447,
+      0.717
+     ],
+     "canon": "R410A",
+     "value": "R-410A"
+    },
+    "volts": {
+     "box": [
+      0.2685,
+      0.4525,
+      0.3512,
+      0.4827
+     ],
+     "canon": "208/230",
+     "value": "208/230"
+    }
+   },
+   "kind": "condenser",
+   "plate": "condenser",
+   "shot": "straight",
+   "split": "dev"
+  },
+  "p31": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": {
+     "box": [
+      0.2977,
+      0.5379,
+      0.3231,
+      0.5603
+     ],
+     "canon": "20",
+     "value": "20"
+    },
+    "mca": {
+     "box": [
+      0.2979,
+      0.4898,
+      0.3365,
+      0.5123
+     ],
+     "canon": "15.2",
+     "value": "15.2"
+    },
+    "model": {
+     "box": [
+      0.2986,
+      0.3455,
+      0.403,
+      0.368
+     ],
+     "canon": "CA1324A1",
+     "value": "CA13-24A1"
+    },
+    "phase": {
+     "box": [
+      0.3908,
+      0.441,
+      0.3993,
+      0.4678
+     ],
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": {
+     "box": [
+      0.2971,
+      0.6822,
+      0.3676,
+      0.7054
+     ],
+     "canon": "R410A",
+     "value": "R-410A"
+    },
+    "volts": {
+     "box": [
+      0.2981,
+      0.4404,
+      0.3817,
+      0.4677
+     ],
+     "canon": "208/230",
+     "value": "208/230"
+    }
+   },
+   "kind": "condenser",
+   "plate": "condenser",
+   "shot": "glare",
+   "split": "dev"
+  },
+  "p32": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.3319,
+      0.473,
+      0.369,
+      0.5003
+     ],
+     "canon": "5",
+     "value": "5.0"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.2511,
+      0.417,
+      0.3746,
+      0.4451
+     ],
+     "canon": "GDO1200",
+     "value": "GDO-1200"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.1299,
+      0.4748,
+      0.1713,
+      0.5022
+     ],
+     "canon": "120",
+     "value": "120"
+    }
+   },
+   "kind": "garage door opener",
+   "plate": "garage-opener",
+   "shot": "straight",
+   "split": "dev"
+  },
+  "p33": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.3189,
+      0.4764,
+      0.3569,
+      0.5049
+     ],
+     "canon": "5",
+     "value": "5.0"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.2366,
+      0.4194,
+      0.362,
+      0.4508
+     ],
+     "canon": "GDO1200",
+     "value": "GDO-1200"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "box": [
+      0.1156,
+      0.4825,
+      0.1573,
+      0.511
+     ],
+     "canon": "120",
+     "value": "120"
+    }
+   },
+   "kind": "garage door opener",
+   "plate": "garage-opener",
+   "shot": "low light",
+   "split": "dev"
+  },
+  "p34": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.2737,
+      0.4813,
+      0.3069,
+      0.5077
+     ],
+     "canon": "6.9",
+     "value": "6.9"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.3188,
+      0.4233,
+      0.4161,
+      0.4508
+     ],
+     "canon": "DH50P2",
+     "value": "DH-50P2"
+    },
+    "phase": null,
+    "refrigerant": {
+     "box": [
+      0.3197,
+      0.5366,
+      0.3691,
+      0.5631
+     ],
+     "canon": "R32",
+     "value": "R-32"
+    },
+    "volts": {
+     "box": [
+      0.1295,
+      0.4835,
+      0.1708,
+      0.5099
+     ],
+     "canon": "115",
+     "value": "115"
+    }
+   },
+   "kind": "other",
+   "plate": "dehumidifier",
+   "shot": "straight",
+   "split": "dev"
+  },
+  "p35": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.2428,
+      0.4991,
+      0.2717,
+      0.5241
+     ],
+     "canon": "6.9",
+     "value": "6.9"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.2773,
+      0.4378,
+      0.3625,
+      0.4725
+     ],
+     "canon": "DH50P2",
+     "value": "DH-50P2"
+    },
+    "phase": null,
+    "refrigerant": {
+     "box": [
+      0.2841,
+      0.5385,
+      0.3276,
+      0.5653
+     ],
+     "canon": "R32",
+     "value": "R-32"
+    },
+    "volts": {
+     "box": [
+      0.1282,
+      0.515,
+      0.1616,
+      0.5399
+     ],
+     "canon": "115",
+     "value": "115"
+    }
+   },
+   "kind": "other",
+   "plate": "dehumidifier",
+   "shot": "angled",
+   "split": "dev"
+  },
+  "p36": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.3137,
+      0.4376,
+      0.3588,
+      0.4655
+     ],
+     "canon": "2",
+     "value": "2.0"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.3041,
+      0.3817,
+      0.4085,
+      0.4118
+     ],
+     "canon": "CF07W1",
+     "value": "CF-07W1"
+    },
+    "phase": null,
+    "refrigerant": {
+     "box": [
+      0.3018,
+      0.4928,
+      0.3913,
+      0.5222
+     ],
+     "canon": "R600A",
+     "value": "R-600a"
+    },
+    "volts": {
+     "box": [
+      0.1052,
+      0.4297,
+      0.1505,
+      0.4577
+     ],
+     "canon": "115",
+     "value": "115"
+    }
+   },
+   "kind": "refrigerator",
+   "plate": "freezer",
+   "shot": "straight",
+   "split": "dev"
+  },
+  "p37": {
+   "fields": {
+    "amps": {
+     "box": [
+      0.3136,
+      0.4318,
+      0.3598,
+      0.4599
+     ],
+     "canon": "2",
+     "value": "2.0"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "box": [
+      0.3014,
+      0.3739,
+      0.4082,
+      0.404
+     ],
+     "canon": "CF07W1",
+     "value": "CF-07W1"
+    },
+    "phase": null,
+    "refrigerant": {
+     "box": [
+      0.3038,
+      0.4867,
+      0.3954,
+      0.5166
+     ],
+     "canon": "R600A",
+     "value": "R-600a"
+    },
+    "volts": {
+     "box": [
+      0.0987,
+      0.4393,
+      0.1456,
+      0.4677
+     ],
+     "canon": "115",
+     "value": "115"
+    }
+   },
+   "kind": "refrigerator",
+   "plate": "freezer",
+   "shot": "glare",
+   "split": "dev"
+  },
+  "p38": {
+   "fields": {
+    "amps": null,
+    "breaker": {
+     "box": [
+      0.4599,
+      0.3698,
+      0.5463,
+      0.4363
+     ],
+     "canon": "30",
+     "value": "30"
+    },
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": null,
+    "phase": null,
+    "refrigerant": null,
+    "volts": null
+   },
+   "kind": "breaker",
+   "plate": "breaker-30",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p39": {
+   "fields": {
+    "amps": null,
+    "breaker": {
+     "box": [
+      0.4386,
+      0.3725,
+      0.5198,
+      0.4309
+     ],
+     "canon": "30",
+     "value": "30"
+    },
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": null,
+    "phase": null,
+    "refrigerant": null,
+    "volts": null
+   },
+   "kind": "breaker",
+   "plate": "breaker-30",
+   "shot": "angled",
+   "split": "test"
+  },
+  "p40": {
+   "fields": {
+    "amps": null,
+    "breaker": {
+     "box": [
+      0.4903,
+      0.4505,
+      0.5592,
+      0.5147
+     ],
+     "canon": "15",
+     "value": "15"
+    },
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": null,
+    "phase": null,
+    "refrigerant": null,
+    "volts": null
+   },
+   "kind": "breaker",
+   "plate": "breaker-15",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p41": {
+   "fields": {
+    "amps": null,
+    "breaker": {
+     "box": [
+      0.4405,
+      0.4739,
+      0.5053,
+      0.5334
+     ],
+     "canon": "15",
+     "value": "15"
+    },
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": null,
+    "phase": null,
+    "refrigerant": null,
+    "volts": null
+   },
+   "kind": "breaker",
+   "plate": "breaker-15",
+   "shot": "low light",
+   "split": "test"
+  },
+  "p42": {
+   "fields": {
+    "amps": null,
+    "breaker": {
+     "box": [
+      0.4672,
+      0.3547,
+      0.5528,
+      0.4178
+     ],
+     "canon": "40",
+     "value": "40"
+    },
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": null,
+    "phase": null,
+    "refrigerant": null,
+    "volts": null
+   },
+   "kind": "breaker",
+   "plate": "breaker-40",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p43": {
+   "fields": {
+    "amps": null,
+    "breaker": {
+     "box": [
+      0.4366,
+      0.3713,
+      0.5161,
+      0.4336
+     ],
+     "canon": "50",
+     "value": "50"
+    },
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": null,
+    "phase": null,
+    "refrigerant": null,
+    "volts": null
+   },
+   "kind": "breaker",
+   "plate": "breaker-50",
+   "shot": "angled",
+   "split": "test"
+  },
+  "p44": {
+   "fields": {
+    "amps": null,
+    "breaker": {
+     "box": [
+      0.4545,
+      0.4586,
+      0.5377,
+      0.5238
+     ],
+     "canon": "20",
+     "value": "20"
+    },
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": null,
+    "phase": null,
+    "refrigerant": null,
+    "volts": null
+   },
+   "kind": "breaker",
+   "plate": "breaker-20",
+   "shot": "straight",
+   "split": "dev"
+  },
+  "p45": {
+   "fields": {
+    "amps": null,
+    "breaker": {
+     "box": [
+      0.4884,
+      0.4558,
+      0.5745,
+      0.5241
+     ],
+     "canon": "20",
+     "value": "20"
+    },
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": null,
+    "phase": null,
+    "refrigerant": null,
+    "volts": null
+   },
+   "kind": "breaker",
+   "plate": "breaker-20",
+   "shot": "glare",
+   "split": "dev"
+  }
+ },
+ "plates": {
+  "air-handler": {
+   "kind": "air handler",
+   "name": "Air handler",
+   "photos": [
+    "p04",
+    "p05"
+   ],
+   "split": "test"
+  },
+  "breaker-15": {
+   "kind": "breaker",
+   "name": "Breaker",
+   "photos": [
+    "p40",
+    "p41"
+   ],
+   "split": "test"
+  },
+  "breaker-20": {
+   "kind": "breaker",
+   "name": "Breaker",
+   "photos": [
+    "p44",
+    "p45"
+   ],
+   "split": "dev"
+  },
+  "breaker-30": {
+   "kind": "breaker",
+   "name": "Breaker",
+   "photos": [
+    "p38",
+    "p39"
+   ],
+   "split": "test"
+  },
+  "breaker-40": {
+   "kind": "breaker",
+   "name": "Breaker",
+   "photos": [
+    "p42"
+   ],
+   "split": "test"
+  },
+  "breaker-50": {
+   "kind": "breaker",
+   "name": "Breaker",
+   "photos": [
+    "p43"
+   ],
+   "split": "test"
+  },
+  "condenser": {
+   "kind": "condenser",
+   "name": "Condenser",
+   "photos": [
+    "p30",
+    "p31"
+   ],
+   "split": "dev"
+  },
+  "dehumidifier": {
+   "kind": "other",
+   "name": "Other",
+   "photos": [
+    "p34",
+    "p35"
+   ],
+   "split": "dev"
+  },
+  "dishwasher": {
+   "kind": "dishwasher",
+   "name": "Dishwasher",
+   "photos": [
+    "p11",
+    "p12"
+   ],
+   "split": "test"
+  },
+  "dryer": {
+   "kind": "dryer",
+   "name": "Dryer",
+   "photos": [
+    "p08",
+    "p09",
+    "p10"
+   ],
+   "split": "test"
+  },
+  "freezer": {
+   "kind": "refrigerator",
+   "name": "Refrigerator",
+   "photos": [
+    "p36",
+    "p37"
+   ],
+   "split": "dev"
+  },
+  "furnace": {
+   "kind": "furnace",
+   "name": "Furnace",
+   "photos": [
+    "p26",
+    "p27"
+   ],
+   "split": "test"
+  },
+  "garage-opener": {
+   "kind": "garage door opener",
+   "name": "Garage door opener",
+   "photos": [
+    "p32",
+    "p33"
+   ],
+   "split": "dev"
+  },
+  "heat-pump": {
+   "kind": "heat pump",
+   "name": "Heat pump",
+   "photos": [
+    "p01",
+    "p02",
+    "p03"
+   ],
+   "split": "test"
+  },
+  "heat-pump-water-heater": {
+   "kind": "water heater",
+   "name": "Water heater",
+   "photos": [
+    "p23",
+    "p24",
+    "p25"
+   ],
+   "split": "test"
+  },
+  "microwave": {
+   "kind": "microwave",
+   "name": "Microwave",
+   "photos": [
+    "p21",
+    "p22"
+   ],
+   "split": "test"
+  },
+  "panel": {
+   "kind": "panel",
+   "name": "Panel",
+   "photos": [
+    "p19",
+    "p20"
+   ],
+   "split": "test"
+  },
+  "range": {
+   "kind": "range",
+   "name": "Range",
+   "photos": [
+    "p13",
+    "p14"
+   ],
+   "split": "test"
+  },
+  "refrigerator": {
+   "kind": "refrigerator",
+   "name": "Refrigerator",
+   "photos": [
+    "p17",
+    "p18"
+   ],
+   "split": "test"
+  },
+  "space-heater": {
+   "kind": "other",
+   "name": "Other",
+   "photos": [
+    "p28",
+    "p29"
+   ],
+   "split": "test"
+  },
+  "washer": {
+   "kind": "washer",
+   "name": "Washer",
+   "photos": [
+    "p15",
+    "p16"
+   ],
+   "split": "test"
+  },
+  "water-heater": {
+   "kind": "water heater",
+   "name": "Water heater",
+   "photos": [
+    "p06",
+    "p07"
+   ],
+   "split": "test"
+  }
+ }
+}

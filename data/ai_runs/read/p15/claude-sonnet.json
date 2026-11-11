@@ -1,0 +1,26 @@
+{
+ "photo": "p15",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:14:37",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "fd50760bbbb3da41",
+ "user": "Photo p15, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "{\"fields\": {\"model\": {\"status\": \"read\", \"value\": \"WM-27F3\", \"label\": \"MODEL\", \"box\": [0.255, 0.395, 0.371, 0.435]}, \"volts\": {\"status\": \"read\", \"value\": \"120\", \"label\": null, \"box\": [0.135, 0.515, 0.2, 0.55]}, \"phase\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"amps\": {\"status\": \"read\", \"value\": \"10.0 A\", \"label\": null, \"box\": [0.292, 0.512, 0.366, 0.549]}, \"mca\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"max_breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"capacity\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"refrigerant\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}}}",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 2665,
+ "meta": {
+  "ms": 2661,
+  "input_tokens": 3505,
+  "output_tokens": 338,
+  "cost_usd": 0.01039,
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "stop_reason": "end_turn"
+ },
+ "redacted": 0
+}

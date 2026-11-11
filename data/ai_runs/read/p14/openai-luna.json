@@ -1,0 +1,41 @@
+{
+ "photo": "p14",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:21:56",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "8d3adac3dbc53233",
+ "user": "Photo p14, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "{\"fields\":{\"model\":{\"status\":\"read\",\"value\":\"ERG-30S1\",\"label\":\"MODEL\",\"box\":[0.236,0.428,0.365,0.467]},\"volts\":{\"status\":\"read\",\"value\":\"120/240 V\",\"label\":null,\"box\":[0.108,0.532,0.244,0.585]},\"phase\":{\"status\":\"read\",\"value\":\"1 PH\",\"label\":null,\"box\":[0.254,0.531,0.299,0.562]},\"amps\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"mca\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"max_breaker\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"capacity\":{\"status\":\"read\",\"value\":\"12.2 KW AT 240 V\",\"label\":\"RATED\",\"box\":[0.247,0.57,0.458,0.616]},\"refrigerant\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"breaker\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null}}}",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 6696,
+ "meta": {
+  "ms": 6691,
+  "input_tokens": 3006,
+  "output_tokens": 720,
+  "cost_usd": 0.000661,
+  "usage": {
+   "prompt_tokens": 3006,
+   "completion_tokens": 720,
+   "total_tokens": 3726,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 458,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ },
+ "redacted": 0
+}

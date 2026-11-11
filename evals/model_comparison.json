@@ -1,0 +1,80 @@
+{
+ "rows": [
+  {
+   "model": "claude-haiku",
+   "label": "Claude Haiku 5.5",
+   "vendor": "Anthropic",
+   "accuracy": {
+    "dev": 0.944,
+    "job": 0.977,
+    "test": 0.993
+   },
+   "past_line": 0,
+   "person_share": 0.014,
+   "caught": 0,
+   "missed_verdicts": 0,
+   "cost_per_photo": 0.00085,
+   "seconds_per_photo": 4.7,
+   "per_thousand_estimate": 0.85,
+   "clears": {
+    "dev": true,
+    "job": true,
+    "test": true
+   },
+   "clears_dev": true
+  },
+  {
+   "model": "claude-sonnet",
+   "label": "Claude Sonnet 5.5",
+   "vendor": "Anthropic",
+   "accuracy": {
+    "dev": 0.972,
+    "job": 0.977,
+    "test": 0.993
+   },
+   "past_line": 0,
+   "person_share": 0.014,
+   "caught": 0,
+   "missed_verdicts": 0,
+   "cost_per_photo": 0.01457,
+   "seconds_per_photo": 6.1,
+   "per_thousand_estimate": 14.57,
+   "clears": {
+    "dev": true,
+    "job": true,
+    "test": true
+   },
+   "clears_dev": true
+  },
+  {
+   "model": "openai-luna",
+   "label": "GPT-6 Luna",
+   "vendor": "OpenAI",
+   "accuracy": {
+    "dev": 1.0,
+    "job": 0.977,
+    "test": 0.993
+   },
+   "past_line": 0,
+   "person_share": 0.014,
+   "caught": 0,
+   "missed_verdicts": 0,
+   "cost_per_photo": 0.00064,
+   "seconds_per_photo": 6.8,
+   "per_thousand_estimate": 0.64,
+   "clears": {
+    "dev": true,
+    "job": true,
+    "test": true
+   },
+   "clears_dev": true
+  }
+ ],
+ "route": "openai-luna",
+ "route_reason": "cheapest_clearing",
+ "bars": {
+  "accuracy": 0.9,
+  "missed_decisions": 0,
+  "past_line": 0
+ }
+}

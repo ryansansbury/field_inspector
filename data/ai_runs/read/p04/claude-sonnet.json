@@ -1,0 +1,26 @@
+{
+ "photo": "p04",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:13:34",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "dfdd6a6e42fdbd5c",
+ "user": "Photo p04, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "{\"fields\": {\"model\": {\"status\": \"read\", \"value\": \"AHV24C3B\", \"label\": \"MODEL\", \"box\": [0.434, 0.291, 0.543, 0.32]},\n\"volts\": {\"status\": \"read\", \"value\": \"208/230\", \"label\": \"VOLTS\", \"box\": [0.434, 0.383, 0.517, 0.411]},\n\"phase\": {\"status\": \"read\", \"value\": \"1\", \"label\": \"PHASE\", \"box\": [0.434, 0.43, 0.443, 0.456]},\n\"amps\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"mca\": {\"status\": \"read\", \"value\": \"9.1\", \"label\": \"MIN. CKT. AMPACITY\", \"box\": [0.434, 0.521, 0.459, 0.548]},\n\"max_breaker\": {\"status\": \"read\", \"value\": \"15\", \"label\": \"MAX. FUSE OR HACR BKR.\", \"box\": [0.434, 0.568, 0.454, 0.594]},\n\"capacity\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"refrigerant\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}}}",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 6145,
+ "meta": {
+  "ms": 6141,
+  "input_tokens": 3505,
+  "output_tokens": 856,
+  "cost_usd": 0.01557,
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "stop_reason": "end_turn"
+ },
+ "redacted": 0
+}

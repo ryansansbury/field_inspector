@@ -1,0 +1,194 @@
+{
+ "plates": {
+  "heat-pump": {
+   "model": "HPA4-36B2C",
+   "refrigerant": "R-454B",
+   "volts": "240",
+   "phase": "1",
+   "breaker": "30",
+   "checks": [
+    "model",
+    "refrigerant",
+    "volts",
+    "breaker_max",
+    "breaker_min"
+   ]
+  },
+  "air-handler": {
+   "model": "AHV24C3B",
+   "volts": "240",
+   "phase": "1",
+   "breaker": "15",
+   "checks": [
+    "model",
+    "volts",
+    "breaker_max",
+    "breaker_min"
+   ]
+  },
+  "water-heater": {
+   "model": "EWH-50T2",
+   "volts": "240",
+   "capacity": "40 GAL",
+   "checks": [
+    "model",
+    "volts",
+    "capacity"
+   ]
+  },
+  "dryer": {
+   "model": "DRY-27E2",
+   "volts": "120/240",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  },
+  "dishwasher": {
+   "model": "DW-24P1",
+   "volts": "120",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  },
+  "range": {
+   "model": "ERG-30S1",
+   "volts": "120/240",
+   "capacity": "12.2 KW",
+   "breaker": "40",
+   "checks": [
+    "model",
+    "volts",
+    "capacity"
+   ]
+  },
+  "washer": {
+   "model": "WM-27F3",
+   "volts": "120",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  },
+  "refrigerator": {
+   "model": "RF-36X5",
+   "volts": "120",
+   "refrigerant": "R-600a",
+   "checks": [
+    "model",
+    "volts",
+    "refrigerant"
+   ]
+  },
+  "panel": {
+   "model": "LC4040B200",
+   "volts": "120/240",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  },
+  "microwave": {
+   "model": "MW-30H1",
+   "volts": "120",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  },
+  "heat-pump-water-heater": {
+   "model": "HPWH-65A",
+   "volts": "240",
+   "phase": "1",
+   "capacity": "65 GAL",
+   "refrigerant": "R-134a",
+   "breaker": "15",
+   "checks": [
+    "model",
+    "volts",
+    "capacity",
+    "refrigerant",
+    "breaker_max",
+    "breaker_min"
+   ]
+  },
+  "furnace": {
+   "model": "GF96-080C3",
+   "volts": "120",
+   "capacity": "80000 BTU/H",
+   "breaker": "15",
+   "checks": [
+    "model",
+    "volts",
+    "capacity",
+    "breaker_max"
+   ]
+  },
+  "space-heater": {
+   "model": "SH-15C",
+   "volts": "120",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  },
+  "condenser": {
+   "model": "CA13-24A1",
+   "volts": "240",
+   "phase": "1",
+   "refrigerant": "R-410A",
+   "breaker": "20",
+   "checks": [
+    "model",
+    "volts",
+    "refrigerant",
+    "breaker_max",
+    "breaker_min"
+   ]
+  },
+  "garage-opener": {
+   "model": "GDO-1200",
+   "volts": "120",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  },
+  "dehumidifier": {
+   "model": "DH-50P2",
+   "volts": "120",
+   "refrigerant": "R-32",
+   "checks": [
+    "model",
+    "volts",
+    "refrigerant"
+   ]
+  },
+  "freezer": {
+   "model": "CF-07W1",
+   "volts": "120",
+   "refrigerant": "R-600a",
+   "checks": [
+    "model",
+    "volts",
+    "refrigerant"
+   ]
+  },
+  "breaker-30": {
+   "checks": []
+  },
+  "breaker-15": {
+   "checks": []
+  },
+  "breaker-40": {
+   "checks": []
+  },
+  "breaker-50": {
+   "checks": []
+  },
+  "breaker-20": {
+   "checks": []
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "photo": "p05",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:20:58",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "4de4c39800b6fd59",
+ "user": "Photo p05, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "{\"fields\":{\"model\":{\"status\":\"read\",\"value\":\"AHV24C3B\",\"label\":\"MODEL\",\"box\":[0.423,0.338,0.539,0.361]},\"volts\":{\"status\":\"read\",\"value\":\"208/230\",\"label\":\"VOLTS\",\"box\":[0.423,0.435,0.513,0.46]},\"phase\":{\"status\":\"read\",\"value\":\"1\",\"label\":\"PHASE\",\"box\":[0.423,0.483,0.432,0.507]},\"amps\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"mca\":{\"status\":\"read\",\"value\":\"9.1\",\"label\":\"MIN. CKT. AMPACITY\",\"box\":[0.423,0.58,0.45,0.605]},\"max_breaker\":{\"status\":\"read\",\"value\":\"15\",\"label\":\"MAX. FUSE OR HACR BKR.\",\"box\":[0.423,0.63,0.447,0.655]},\"capacity\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"refrigerant\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"breaker\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null}}}",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 5484,
+ "meta": {
+  "ms": 5478,
+  "input_tokens": 3006,
+  "output_tokens": 578,
+  "cost_usd": 0.00059,
+  "usage": {
+   "prompt_tokens": 3006,
+   "completion_tokens": 578,
+   "total_tokens": 3584,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 293,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ },
+ "redacted": 0
+}

@@ -1,0 +1,26 @@
+{
+ "photo": "p19",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:14:59",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "4d71c139ca1dbe76",
+ "user": "Photo p19, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "{\"fields\": {\"model\": {\"status\": \"read\", \"value\": \"LC4040B200\", \"label\": \"CAT. NO.\", \"box\": [0.409, 0.404, 0.562, 0.443]},\n\"volts\": {\"status\": \"read\", \"value\": \"120/240\", \"label\": null, \"box\": [0.102, 0.476, 0.212, 0.512]},\n\"phase\": {\"status\": \"read\", \"value\": \"1\", \"label\": null, \"box\": [0.267, 0.472, 0.317, 0.507]},\n\"amps\": {\"status\": \"read\", \"value\": \"200\", \"label\": \"MAX AMPS\", \"box\": [0.412, 0.518, 0.458, 0.554]},\n\"mca\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"max_breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"capacity\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"refrigerant\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}}}",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 8251,
+ "meta": {
+  "ms": 8247,
+  "input_tokens": 3505,
+  "output_tokens": 987,
+  "cost_usd": 0.01688,
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "stop_reason": "end_turn"
+ },
+ "redacted": 0
+}

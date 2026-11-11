@@ -1,0 +1,26 @@
+{
+ "photo": "p38",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:16:18",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "6e3faedf73f84440",
+ "user": "Photo p38, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "```json\n{\"fields\": {\n\"model\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"volts\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"phase\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"amps\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"mca\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"max_breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"capacity\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"refrigerant\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"breaker\": {\"status\": \"read\", \"value\": \"30\", \"label\": null, \"box\": [0.464, 0.535, 0.546, 0.602]}\n}}\n```",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 5253,
+ "meta": {
+  "ms": 5249,
+  "input_tokens": 3505,
+  "output_tokens": 581,
+  "cost_usd": 0.01282,
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "stop_reason": "end_turn"
+ },
+ "redacted": 0
+}

@@ -1,0 +1,26 @@
+{
+ "photo": "p26",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:18:47",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "ed49869c7a08ea5d",
+ "user": "Photo p26, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "```json\n{\"fields\": {\"model\": {\"status\": \"read\", \"value\": \"GF96-080C3\", \"label\": \"MODEL\", \"box\": [0.4707, 0.3656, 0.5855, 0.3954]},\n\"volts\": {\"status\": \"read\", \"value\": \"115\", \"label\": null, \"box\": [0.1288, 0.5187, 0.1862, 0.5485]},\n\"phase\": {\"status\": \"read\", \"value\": \"1 PH\", \"label\": null, \"box\": [0.2902, 0.5170, 0.3361, 0.5442]},\n\"amps\": {\"status\": \"read\", \"value\": \"7.6\", \"label\": \"TOTAL UNIT AMPS\", \"box\": [0.4745, 0.5569, 0.5082, 0.5867]},\n\"mca\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"max_breaker\": {\"status\": \"read\", \"value\": \"15 A\", \"label\": \"MAX. OVERCURRENT PROTECTION\", \"box\": [0.4758, 0.6054, 0.5217, 0.6334]},\n\"capacity\": {\"status\": \"read\", \"value\": \"80,000 BTU/H\", \"label\": \"INPUT\", \"box\": [0.4726, 0.4592, 0.6109, 0.4915]},\n\"refrigerant\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}}}\n```",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 5122,
+ "meta": {
+  "ms": 5118,
+  "input_tokens": 3505,
+  "output_tokens": 1114,
+  "cost_usd": 0.000907,
+  "models": [
+   "claude-haiku-5-5"
+  ],
+  "stop_reason": "end_turn"
+ },
+ "redacted": 0
+}

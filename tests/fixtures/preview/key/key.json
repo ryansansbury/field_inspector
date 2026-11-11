@@ -1,0 +1,294 @@
+{
+ "confirmed_by": "the preview fixture",
+ "dropped": {},
+ "made_from": "tests/fixtures/make_preview.py",
+ "photos": {
+  "p01": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": {
+     "canon": "25",
+     "value": "25"
+    },
+    "mca": {
+     "canon": "18.6",
+     "value": "18.6"
+    },
+    "model": {
+     "canon": "HPX36B2",
+     "value": "HPX-36B2"
+    },
+    "phase": {
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": {
+     "canon": "R454B",
+     "value": "R-454B"
+    },
+    "volts": {
+     "canon": "208/230",
+     "value": "208/230"
+    }
+   },
+   "kind": "heat pump",
+   "plate": "heat-pump",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p02": {
+   "fields": {
+    "amps": null,
+    "breaker": {
+     "canon": "30",
+     "value": "30"
+    },
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": null,
+    "phase": null,
+    "refrigerant": null,
+    "volts": null
+   },
+   "kind": "breaker",
+   "plate": "breaker",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p03": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": {
+     "canon": "15",
+     "value": "15"
+    },
+    "mca": {
+     "canon": "9.1",
+     "value": "9.1"
+    },
+    "model": {
+     "canon": "AHX24A1",
+     "value": "AHX-24A1"
+    },
+    "phase": {
+     "canon": "1",
+     "value": "1"
+    },
+    "refrigerant": null,
+    "volts": {
+     "canon": "208/230",
+     "value": "208/230"
+    }
+   },
+   "kind": "air handler",
+   "plate": "air-handler",
+   "shot": "angled",
+   "split": "test"
+  },
+  "p04": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": {
+     "canon": "50 GAL",
+     "value": "50 GAL"
+    },
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "canon": "EWH50T2",
+     "value": "EWH-50T2"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "canon": "240",
+     "value": "240"
+    }
+   },
+   "kind": "water heater",
+   "plate": "water-heater",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p05": {
+   "fields": {
+    "amps": {
+     "canon": "24",
+     "value": "24"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "canon": "DRY27E",
+     "value": "DRY-27E"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "canon": "120/240",
+     "value": "120/240"
+    }
+   },
+   "kind": "dryer",
+   "plate": "dryer",
+   "shot": "glare",
+   "split": "test"
+  },
+  "p06": {
+   "fields": {
+    "amps": {
+     "canon": "12",
+     "value": "12.0A"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "canon": "DW24P7",
+     "value": "DW-24P7"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "canon": "120",
+     "value": "120V"
+    }
+   },
+   "kind": "dishwasher",
+   "plate": "dishwasher",
+   "shot": "straight",
+   "split": "test"
+  },
+  "p07": {
+   "fields": {
+    "amps": null,
+    "breaker": null,
+    "capacity": {
+     "canon": "12.2 KW",
+     "value": "12.2 KW"
+    },
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "canon": "RNG30E",
+     "value": "RNG-30E"
+    },
+    "phase": null,
+    "refrigerant": null,
+    "volts": {
+     "canon": "120/240",
+     "value": "120/240"
+    }
+   },
+   "kind": "range",
+   "plate": "range",
+   "shot": "angled",
+   "split": "test"
+  },
+  "p08": {
+   "fields": {
+    "amps": {
+     "canon": "200",
+     "value": "200"
+    },
+    "breaker": null,
+    "capacity": null,
+    "max_breaker": null,
+    "mca": null,
+    "model": {
+     "canon": "PNL200",
+     "value": "PNL-200"
+    },
+    "phase": {
+     "canon": "1",
+     "value": "1PH"
+    },
+    "refrigerant": null,
+    "volts": {
+     "canon": "120/240",
+     "value": "120/240"
+    }
+   },
+   "kind": "panel",
+   "plate": "panel",
+   "shot": "straight",
+   "split": "test"
+  }
+ },
+ "plates": {
+  "air-handler": {
+   "kind": "air handler",
+   "name": "Air handler",
+   "photos": [
+    "p03"
+   ],
+   "split": "test"
+  },
+  "breaker": {
+   "kind": "breaker",
+   "name": "Breaker",
+   "photos": [
+    "p02"
+   ],
+   "split": "test"
+  },
+  "dishwasher": {
+   "kind": "dishwasher",
+   "name": "Dishwasher",
+   "photos": [
+    "p06"
+   ],
+   "split": "test"
+  },
+  "dryer": {
+   "kind": "dryer",
+   "name": "Dryer",
+   "photos": [
+    "p05"
+   ],
+   "split": "test"
+  },
+  "heat-pump": {
+   "kind": "heat pump",
+   "name": "Heat pump",
+   "photos": [
+    "p01"
+   ],
+   "split": "test"
+  },
+  "panel": {
+   "kind": "panel",
+   "name": "Panel",
+   "photos": [
+    "p08"
+   ],
+   "split": "test"
+  },
+  "range": {
+   "kind": "range",
+   "name": "Range",
+   "photos": [
+    "p07"
+   ],
+   "split": "test"
+  },
+  "water-heater": {
+   "kind": "water heater",
+   "name": "Water heater",
+   "photos": [
+    "p04"
+   ],
+   "split": "test"
+  }
+ },
+ "seed": 11
+}

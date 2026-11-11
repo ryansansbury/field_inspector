@@ -1,0 +1,42 @@
+{
+  "note": "The models the comparison runs and the route chooses between, and the bars every model is held to. Keys never go in this file. The owner scripts read the Anthropic key from the Keychain item field-inspector-anthropic and the OpenAI key from field-inspector-openai, saved there by owner/keys.sh, and never print either. Prices are US dollars per million tokens, carried over from the Call Companion's config, checked 2026-10-30. The bars were set on 2026-11-09, before any read.",
+  "prices_checked": "2026-10-30",
+  "compare": ["claude-sonnet", "claude-haiku", "openai-luna"],
+  "default": "claude-sonnet",
+  "bars": {"accuracy": 0.9, "past_line": 0, "missed_decisions": 0},
+  "route_note": "After the dev round, the cheapest model that clears every bar on dev opens the page. Until then the default does.",
+  "models": [
+    {
+      "id": "claude-sonnet",
+      "label": "Claude Sonnet 5.5",
+      "vendor": "Anthropic",
+      "via": "anthropic",
+      "model": "claude-sonnet-5-5",
+      "keychain": "field-inspector-anthropic",
+      "price_in": 2.0,
+      "price_out": 10.0
+    },
+    {
+      "id": "claude-haiku",
+      "label": "Claude Haiku 5.5",
+      "vendor": "Anthropic",
+      "via": "anthropic",
+      "model": "claude-haiku-5-5",
+      "keychain": "field-inspector-anthropic",
+      "price_in": 0.1,
+      "price_out": 0.5
+    },
+    {
+      "id": "openai-luna",
+      "label": "GPT-6 Luna",
+      "vendor": "OpenAI",
+      "via": "openai",
+      "base_url": "https://api.openai.com/v1",
+      "model": "gpt-6-luna",
+      "keychain": "field-inspector-openai",
+      "token_param": "max_completion_tokens",
+      "price_in": 0.1,
+      "price_out": 0.5
+    }
+  ]
+}

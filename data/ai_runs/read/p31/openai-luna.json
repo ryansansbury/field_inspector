@@ -1,0 +1,41 @@
+{
+ "photo": "p31",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:24:03",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "d9a8698e6f84901d",
+ "user": "Photo p31, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "{\"fields\":{\"model\":{\"status\":\"read\",\"value\":\"CA13-24A1\",\"label\":\"MODEL\",\"box\":[0.299,0.344,0.405,0.369]},\"volts\":{\"status\":\"read\",\"value\":\"208/230\",\"label\":\"V-PH-HZ\",\"box\":[0.298,0.441,0.434,0.465]},\"phase\":{\"status\":\"read\",\"value\":\"1\",\"label\":\"V-PH-HZ\",\"box\":[0.386,0.442,0.393,0.464]},\"amps\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"mca\":{\"status\":\"read\",\"value\":\"15.2\",\"label\":\"MCA\",\"box\":[0.297,0.49,0.336,0.513]},\"max_breaker\":{\"status\":\"read\",\"value\":\"20\",\"label\":\"MOCP\",\"box\":[0.297,0.537,0.316,0.561]},\"capacity\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"refrigerant\":{\"status\":\"read\",\"value\":\"R-410A\",\"label\":\"REFRIGERANT\",\"box\":[0.297,0.68,0.369,0.705]},\"breaker\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null}}}",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 8497,
+ "meta": {
+  "ms": 8492,
+  "input_tokens": 3006,
+  "output_tokens": 849,
+  "cost_usd": 0.000725,
+  "usage": {
+   "prompt_tokens": 3006,
+   "completion_tokens": 849,
+   "total_tokens": 3855,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 543,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ },
+ "redacted": 0
+}

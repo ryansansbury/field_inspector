@@ -1,0 +1,171 @@
+{
+ "number": "2318",
+ "day": "2026-11-12",
+ "assets": [
+  {
+   "id": "heat-pump",
+   "photo": "p01",
+   "kind": "heat pump",
+   "place": "side_yard",
+   "breaker_photo": "p38"
+  },
+  {
+   "id": "air-handler",
+   "photo": "p04",
+   "kind": "air handler",
+   "place": "attic",
+   "breaker_photo": "p40"
+  },
+  {
+   "id": "water-heater",
+   "photo": "p06",
+   "kind": "water heater",
+   "place": "garage"
+  },
+  {
+   "id": "dryer",
+   "photo": "p08",
+   "kind": "dryer",
+   "place": "laundry"
+  },
+  {
+   "id": "dishwasher",
+   "photo": "p11",
+   "kind": "dishwasher",
+   "place": "kitchen"
+  },
+  {
+   "id": "range",
+   "photo": "p13",
+   "kind": "range",
+   "place": "kitchen",
+   "breaker_photo": "p42"
+  },
+  {
+   "id": "washer",
+   "photo": "p15",
+   "kind": "washer",
+   "place": "laundry"
+  },
+  {
+   "id": "refrigerator",
+   "photo": "p17",
+   "kind": "refrigerator",
+   "place": "kitchen"
+  },
+  {
+   "id": "microwave",
+   "photo": "p21",
+   "kind": "microwave",
+   "place": "kitchen"
+  },
+  {
+   "id": "panel",
+   "photo": "p19",
+   "kind": "panel",
+   "place": "garage"
+  }
+ ],
+ "designs": {
+  "heat-pump": {
+   "model": "HPA4-36B2C",
+   "refrigerant": "R-454B",
+   "volts": "240",
+   "phase": "1",
+   "breaker": "30",
+   "checks": [
+    "model",
+    "refrigerant",
+    "volts",
+    "breaker_max",
+    "breaker_min",
+    "panel"
+   ]
+  },
+  "air-handler": {
+   "model": "AHV24C3B",
+   "volts": "240",
+   "phase": "1",
+   "breaker": "15",
+   "checks": [
+    "model",
+    "volts",
+    "breaker_max",
+    "breaker_min",
+    "panel"
+   ]
+  },
+  "water-heater": {
+   "model": "EWH-50T2",
+   "volts": "240",
+   "capacity": "40 GAL",
+   "checks": [
+    "model",
+    "volts",
+    "capacity"
+   ]
+  },
+  "dryer": {
+   "model": "DRY-27E2",
+   "volts": "120/240",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  },
+  "dishwasher": {
+   "model": "DW-24P1",
+   "volts": "120",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  },
+  "range": {
+   "model": "ERG-30S1",
+   "volts": "120/240",
+   "capacity": "12.2 KW",
+   "breaker": "40",
+   "checks": [
+    "model",
+    "volts",
+    "capacity",
+    "panel"
+   ]
+  },
+  "washer": {
+   "model": "WM-27F3",
+   "volts": "120",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  },
+  "refrigerator": {
+   "model": "RF-36X5",
+   "volts": "120",
+   "refrigerant": "R-600a",
+   "checks": [
+    "model",
+    "volts",
+    "refrigerant"
+   ]
+  },
+  "microwave": {
+   "model": "MW-30H1",
+   "volts": "120",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  },
+  "panel": {
+   "model": "LC4040B200",
+   "volts": "120/240",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  }
+ }
+}

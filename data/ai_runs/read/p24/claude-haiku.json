@@ -1,0 +1,26 @@
+{
+ "photo": "p24",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:18:37",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "7a4d4ddb970d174a",
+ "user": "Photo p24, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "```json\n{\"fields\": {\"model\": {\"status\": \"read\", \"value\": \"HPWH-65A\", \"label\": \"MODEL\", \"box\": [0.4605, 0.3257, 0.5650, 0.3529]},\n\"volts\": {\"status\": \"read\", \"value\": \"208/240\", \"label\": null, \"box\": [0.1135, 0.4354, 0.2072, 0.4634]},\n\"phase\": {\"status\": \"read\", \"value\": \"1 PH\", \"label\": null, \"box\": [0.2168, 0.4337, 0.2551, 0.4592]},\n\"amps\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"mca\": {\"status\": \"read\", \"value\": \"16.2\", \"label\": \"MIN. SUPPLY CIRCUIT AMPACITY\", \"box\": [0.4643, 0.4703, 0.5006, 0.4949]},\n\"max_breaker\": {\"status\": \"read\", \"value\": \"30\", \"label\": \"MAX. OVERCURRENT PROTECTION\", \"box\": [0.4656, 0.5187, 0.4893, 0.5425]},\n\"capacity\": {\"status\": \"read\", \"value\": \"65 GAL\", \"label\": \"CAPACITY\", \"box\": [0.4669, 0.5629, 0.5319, 0.5901]},\n\"refrigerant\": {\"status\": \"read\", \"value\": \"R-134a\", \"label\": \"REFRIGERANT\", \"box\": [0.4675, 0.6105, 0.5319, 0.6378]},\n\"breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}}}\n```",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 7268,
+ "meta": {
+  "ms": 7263,
+  "input_tokens": 3505,
+  "output_tokens": 1552,
+  "cost_usd": 0.001126,
+  "models": [
+   "claude-haiku-5-5"
+  ],
+  "stop_reason": "end_turn"
+ },
+ "redacted": 0
+}

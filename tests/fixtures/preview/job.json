@@ -1,0 +1,122 @@
+{
+ "number": "2318",
+ "day": "2026-11-12",
+ "assets": [
+  {
+   "id": "heat-pump",
+   "photo": "p01",
+   "kind": "heat pump",
+   "place": "side_yard",
+   "breaker_photo": "p02"
+  },
+  {
+   "id": "air-handler",
+   "photo": "p03",
+   "kind": "air handler",
+   "place": "attic"
+  },
+  {
+   "id": "water-heater",
+   "photo": "p04",
+   "kind": "water heater",
+   "place": "garage"
+  },
+  {
+   "id": "dryer",
+   "photo": "p05",
+   "kind": "dryer",
+   "place": "laundry"
+  },
+  {
+   "id": "dishwasher",
+   "photo": "p06",
+   "kind": "dishwasher",
+   "place": "kitchen"
+  },
+  {
+   "id": "range",
+   "photo": "p07",
+   "kind": "range",
+   "place": "kitchen"
+  },
+  {
+   "id": "panel",
+   "photo": "p08",
+   "kind": "panel",
+   "place": "garage"
+  }
+ ],
+ "designs": {
+  "heat-pump": {
+   "model": "HPX-36B2",
+   "refrigerant": "R-454B",
+   "volts": "240",
+   "phase": "1",
+   "breaker": "30",
+   "checks": [
+    "model",
+    "refrigerant",
+    "volts",
+    "breaker_max",
+    "breaker_min",
+    "panel"
+   ]
+  },
+  "air-handler": {
+   "model": "AHX-24A1",
+   "volts": "240",
+   "phase": "1",
+   "breaker": "15",
+   "checks": [
+    "model",
+    "volts",
+    "breaker_max",
+    "breaker_min"
+   ]
+  },
+  "water-heater": {
+   "model": "EWH-50T2",
+   "volts": "240",
+   "capacity": "40 GAL",
+   "checks": [
+    "model",
+    "volts",
+    "capacity"
+   ]
+  },
+  "dryer": {
+   "model": "DRY-27E",
+   "volts": "120/240",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  },
+  "dishwasher": {
+   "model": "DW-24P1",
+   "volts": "120",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  },
+  "range": {
+   "model": "RNG-30E",
+   "volts": "120/240",
+   "capacity": "12.2 KW",
+   "checks": [
+    "model",
+    "volts",
+    "capacity"
+   ]
+  },
+  "panel": {
+   "model": "PNL-200",
+   "volts": "120/240",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  }
+ }
+}

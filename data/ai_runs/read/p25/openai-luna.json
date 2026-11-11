@@ -1,0 +1,41 @@
+{
+ "photo": "p25",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:23:10",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "babcfbdaca1356f9",
+ "user": "Photo p25, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "{\"fields\":{\"model\":{\"status\":\"read\",\"value\":\"HPWH-65A\",\"label\":\"MODEL\",\"box\":[0.482,0.381,0.588,0.407]},\"volts\":{\"status\":\"read\",\"value\":\"208/240 V\",\"label\":null,\"box\":[0.131,0.469,0.216,0.495]},\"phase\":{\"status\":\"read\",\"value\":\"1 PH\",\"label\":null,\"box\":[0.241,0.469,0.28,0.495]},\"amps\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"mca\":{\"status\":\"read\",\"value\":\"16.2\",\"label\":\"MIN. SUPPLY CIRCUIT AMPACITY\",\"box\":[0.483,0.519,0.516,0.543]},\"max_breaker\":{\"status\":\"read\",\"value\":\"30\",\"label\":\"MAX. OVERCURRENT PROTECTION\",\"box\":[0.484,0.565,0.506,0.589]},\"capacity\":{\"status\":\"read\",\"value\":\"65 GAL\",\"label\":\"CAPACITY\",\"box\":[0.482,0.614,0.544,0.639]},\"refrigerant\":{\"status\":\"read\",\"value\":\"R-134a\",\"label\":\"REFRIGERANT\",\"box\":[0.482,0.659,0.543,0.684]},\"breaker\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null}}}",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 6959,
+ "meta": {
+  "ms": 6954,
+  "input_tokens": 3006,
+  "output_tokens": 755,
+  "cost_usd": 0.000678,
+  "usage": {
+   "prompt_tokens": 3006,
+   "completion_tokens": 755,
+   "total_tokens": 3761,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 435,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ },
+ "redacted": 0
+}

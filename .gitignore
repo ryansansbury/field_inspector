@@ -1,0 +1,11 @@
+.venv/
+.cache/
+node_modules/
+__pycache__/
+.env
+.env.*
+data/raw/
+data/unmasked/
+data/ocr_draft/
+owner/out/
+owner/private/

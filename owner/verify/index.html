@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Field Inspector: verify the photos</title>
+<link rel="stylesheet" href="verify.css">
+</head>
+<body>
+<header>
+  <b>Verify the photos</b>
+  <span id="progress"></span>
+  <span id="saved"></span>
+</header>
+<main>
+  <nav id="list" aria-label="Photos"></nav>
+  <section id="stage">
+    <div id="frame"><img id="photo" alt=""><div id="boxes"></div></div>
+    <div id="tools">
+      <button type="button" id="draw">Draw a mask</button>
+      <label><input type="checkbox" id="show-values" checked> Draft value boxes</label>
+      <label><input type="checkbox" id="show-words"> Every recognized word</label>
+      <span class="hint">Drag a mask to move it, drag its corner to resize it, and click its x to remove it.</span>
+    </div>
+  </section>
+  <aside id="form"></aside>
+</main>
+<script src="verify.js"></script>
+</body>
+</html>

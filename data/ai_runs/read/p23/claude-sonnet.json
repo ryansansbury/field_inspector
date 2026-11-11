@@ -1,0 +1,26 @@
+{
+ "photo": "p23",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:15:35",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "c5481048135e3f20",
+ "user": "Photo p23, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "{\"fields\": {\"model\": {\"status\": \"read\", \"value\": \"HPWH-65A\", \"label\": \"MODEL\", \"box\": [0.473, 0.374, 0.576, 0.407]},\n\"volts\": {\"status\": \"read\", \"value\": \"208/240 V\", \"label\": null, \"box\": [0.122, 0.463, 0.221, 0.492]},\n\"phase\": {\"status\": \"read\", \"value\": \"1\", \"label\": null, \"box\": [0.228, 0.463, 0.240, 0.492]},\n\"amps\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"mca\": {\"status\": \"read\", \"value\": \"16.2\", \"label\": \"MIN. SUPPLY CIRCUIT AMPACITY\", \"box\": [0.472, 0.514, 0.508, 0.542]},\n\"max_breaker\": {\"status\": \"read\", \"value\": \"30\", \"label\": \"MAX. OVERCURRENT PROTECTION\", \"box\": [0.472, 0.560, 0.496, 0.587]},\n\"capacity\": {\"status\": \"read\", \"value\": \"65 GAL\", \"label\": \"CAPACITY\", \"box\": [0.471, 0.605, 0.535, 0.633]},\n\"refrigerant\": {\"status\": \"read\", \"value\": \"R-134a\", \"label\": \"REFRIGERANT\", \"box\": [0.471, 0.652, 0.533, 0.679]},\n\"breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}}}",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 11263,
+ "meta": {
+  "ms": 11259,
+  "input_tokens": 3505,
+  "output_tokens": 1471,
+  "cost_usd": 0.02172,
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "stop_reason": "end_turn"
+ },
+ "redacted": 0
+}

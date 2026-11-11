@@ -1,0 +1,26 @@
+{
+ "photo": "p27",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:16:01",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "869fa18b03402c9f",
+ "user": "Photo p27, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "{\"fields\": {\"model\": {\"status\": \"read\", \"value\": \"GF96-080C3\", \"label\": \"MODEL\", \"box\": [0.446, 0.34, 0.558, 0.375]}, \"volts\": {\"status\": \"read\", \"value\": \"115\", \"label\": null, \"box\": [0.139, 0.46, 0.172, 0.49]}, \"phase\": {\"status\": \"read\", \"value\": \"1\", \"label\": null, \"box\": [0.275, 0.47, 0.316, 0.495]}, \"amps\": {\"status\": \"read\", \"value\": \"7.6\", \"label\": \"TOTAL UNIT AMPS\", \"box\": [0.442, 0.517, 0.476, 0.545]}, \"mca\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"max_breaker\": {\"status\": \"read\", \"value\": \"15 A\", \"label\": \"MAX. OVERCURRENT PROTECTION\", \"box\": [0.441, 0.56, 0.487, 0.592]}, \"capacity\": {\"status\": \"read\", \"value\": \"80,000 BTU/H\", \"label\": \"INPUT\", \"box\": [0.443, 0.43, 0.581, 0.465]}, \"refrigerant\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}}}",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 2944,
+ "meta": {
+  "ms": 2941,
+  "input_tokens": 3505,
+  "output_tokens": 439,
+  "cost_usd": 0.0114,
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "stop_reason": "end_turn"
+ },
+ "redacted": 0
+}

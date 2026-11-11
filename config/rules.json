@@ -1,0 +1,25 @@
+{
+  "note": "The installer's design rules, as data. engine/rules.py and the page's site/rules.js run them the same way, and the parity vectors prove it. These are the installer's own checks before a job closes, not an inspection or an electrician's sign-off. The voltage classes say which plate ratings fit a design voltage, so 208/230 equipment fits a 240 V design.",
+  "rules": [
+    {"id": "model", "fields": ["model"], "design": "model", "outcomes": ["pass", "review", "fail"]},
+    {"id": "capacity", "fields": ["capacity"], "design": "capacity", "outcomes": ["pass", "fail"]},
+    {"id": "refrigerant", "fields": ["refrigerant"], "design": "refrigerant", "outcomes": ["pass", "fail"]},
+    {"id": "volts", "fields": ["volts", "phase"], "optional": ["phase"], "design": "volts", "outcomes": ["pass", "fail"]},
+    {"id": "breaker_max", "fields": ["max_breaker"], "design": "breaker", "outcomes": ["pass", "fail"]},
+    {"id": "breaker_min", "fields": ["mca"], "design": "breaker", "outcomes": ["pass", "fail"]},
+    {"id": "panel", "fields": ["breaker"], "design": "breaker", "outcomes": ["pass", "fail"], "across_photos": true},
+    {"id": "readable", "fields": [], "design": null, "outcomes": ["pass", "fail"]}
+  ],
+  "volt_classes": {
+    "120": [110, 125],
+    "208": [200, 208],
+    "240": [220, 250],
+    "277": [265, 277],
+    "480": [440, 480]
+  },
+  "line": {
+    "positions": ["missing", "partial", "all"],
+    "default": "partial",
+    "note": "Which reads go to a person: only the ones not found on the photo, the ones partly found as well (the default), or every read."
+  }
+}

@@ -1,0 +1,41 @@
+{
+ "photo": "p03",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:20:47",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "7c75f8c1eccbb725",
+ "user": "Photo p03, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "{\"fields\":{\"model\":{\"status\":\"read\",\"value\":\"HPA4-36B2C\",\"label\":\"MODEL NO.\",\"box\":[0.39,0.235,0.517,0.261]},\"volts\":{\"status\":\"read\",\"value\":\"208/230\",\"label\":\"VOLTS-PH-HZ\",\"box\":[0.393,0.33,0.452,0.354]},\"phase\":{\"status\":\"read\",\"value\":\"1\",\"label\":\"VOLTS-PH-HZ\",\"box\":[0.467,0.33,0.473,0.354]},\"amps\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"mca\":{\"status\":\"read\",\"value\":\"18.6\",\"label\":\"MIN. CIRCUIT AMPACITY\",\"box\":[0.394,0.378,0.434,0.4]},\"max_breaker\":{\"status\":\"read\",\"value\":\"25\",\"label\":\"MAX. FUSE OR CKT. BKR.\",\"box\":[0.401,0.429,0.42,0.452]},\"capacity\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"refrigerant\":{\"status\":\"read\",\"value\":\"R-454B\",\"label\":\"REFRIGERANT\",\"box\":[0.399,0.612,0.455,0.636]},\"breaker\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null}}}",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 11618,
+ "meta": {
+  "ms": 11612,
+  "input_tokens": 3006,
+  "output_tokens": 1192,
+  "cost_usd": 0.000897,
+  "usage": {
+   "prompt_tokens": 3006,
+   "completion_tokens": 1192,
+   "total_tokens": 4198,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 868,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ },
+ "redacted": 0
+}

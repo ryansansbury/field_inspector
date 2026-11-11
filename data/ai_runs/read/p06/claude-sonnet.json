@@ -1,0 +1,26 @@
+{
+ "photo": "p06",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:13:40",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "4c09d7638925485b",
+ "user": "Photo p06, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "{\"fields\": {\"model\": {\"status\": \"read\", \"value\": \"EWH-50T2\", \"label\": \"MODEL\", \"box\": [0.420, 0.358, 0.521, 0.390]}, \"volts\": {\"status\": \"read\", \"value\": \"240\", \"label\": \"VOLTS\", \"box\": [0.419, 0.506, 0.457, 0.535]}, \"phase\": {\"status\": \"read\", \"value\": \"1\", \"label\": \"PHASE\", \"box\": [0.419, 0.555, 0.433, 0.583]}, \"amps\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"mca\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"max_breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"capacity\": {\"status\": \"read\", \"value\": \"50 GAL. (189 L)\", \"label\": \"CAPACITY\", \"box\": [0.419, 0.453, 0.603, 0.489]}, \"refrigerant\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}}}",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 3277,
+ "meta": {
+  "ms": 3274,
+  "input_tokens": 3505,
+  "output_tokens": 379,
+  "cost_usd": 0.0108,
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "stop_reason": "end_turn"
+ },
+ "redacted": 0
+}

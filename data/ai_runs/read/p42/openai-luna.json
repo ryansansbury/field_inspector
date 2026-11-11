@@ -1,0 +1,41 @@
+{
+ "photo": "p42",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:25:01",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "5ccb550fdb3ba2ec",
+ "user": "Photo p42, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "{\"fields\":{\"model\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"volts\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"phase\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"amps\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"mca\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"max_breaker\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"capacity\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"refrigerant\":{\"status\":\"absent\",\"value\":null,\"label\":null,\"box\":null},\"breaker\":{\"status\":\"read\",\"value\":\"40\",\"label\":null,\"box\":[0.4719,0.5153,0.5517,0.5753]}}}",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 4458,
+ "meta": {
+  "ms": 4454,
+  "input_tokens": 3006,
+  "output_tokens": 400,
+  "cost_usd": 0.000501,
+  "usage": {
+   "prompt_tokens": 3006,
+   "completion_tokens": 400,
+   "total_tokens": 3406,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 192,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ },
+ "redacted": 0
+}

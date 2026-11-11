@@ -1,0 +1,26 @@
+{
+ "photo": "p23",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:18:29",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "c5481048135e3f20",
+ "user": "Photo p23, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "```json\n{\"fields\": {\"model\": {\"status\": \"read\", \"value\": \"HPWH-65A\", \"label\": \"MODEL\", \"box\": [0.473, 0.378, 0.575, 0.405]},\n            \"volts\": {\"status\": \"read\", \"value\": \"208/240\", \"label\": \"208/240 V 1 PH 60 HZ\", \"box\": [0.122, 0.463, 0.219, 0.491]},\n            \"phase\": {\"status\": \"read\", \"value\": \"1 PH\", \"label\": \"208/240 V 1 PH 60 HZ\", \"box\": [0.228, 0.463, 0.266, 0.491]},\n            \"amps\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n            \"mca\": {\"status\": \"read\", \"value\": \"16.2\", \"label\": \"MIN. SUPPLY CIRCUIT AMPACITY\", \"box\": [0.473, 0.514, 0.507, 0.540]},\n            \"max_breaker\": {\"status\": \"read\", \"value\": \"30\", \"label\": \"MAX. OVERCURRENT PROTECTION\", \"box\": [0.472, 0.561, 0.494, 0.585]},\n            \"capacity\": {\"status\": \"read\", \"value\": \"65 GAL\", \"label\": \"CAPACITY\", \"box\": [0.471, 0.606, 0.534, 0.634]},\n            \"refrigerant\": {\"status\": \"read\", \"value\": \"R-134a\", \"label\": \"REFRIGERANT\", \"box\": [0.471, 0.652, 0.533, 0.679]},\n            \"breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}}}\n```",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 6040,
+ "meta": {
+  "ms": 6037,
+  "input_tokens": 3505,
+  "output_tokens": 1303,
+  "cost_usd": 0.001002,
+  "models": [
+   "claude-haiku-5-5"
+  ],
+  "stop_reason": "end_turn"
+ },
+ "redacted": 0
+}

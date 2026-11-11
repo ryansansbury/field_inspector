@@ -1,0 +1,78 @@
+{
+ "plates": {
+  "heat-pump": {
+   "model": "HPX-36B2",
+   "refrigerant": "R-454B",
+   "volts": "240",
+   "phase": "1",
+   "breaker": "30",
+   "checks": [
+    "model",
+    "refrigerant",
+    "volts",
+    "breaker_max",
+    "breaker_min",
+    "panel"
+   ]
+  },
+  "breaker": {
+   "checks": []
+  },
+  "air-handler": {
+   "model": "AHX-24A1",
+   "volts": "240",
+   "phase": "1",
+   "breaker": "15",
+   "checks": [
+    "model",
+    "volts",
+    "breaker_max",
+    "breaker_min"
+   ]
+  },
+  "water-heater": {
+   "model": "EWH-50T2",
+   "volts": "240",
+   "capacity": "40 GAL",
+   "checks": [
+    "model",
+    "volts",
+    "capacity"
+   ]
+  },
+  "dryer": {
+   "model": "DRY-27E",
+   "volts": "120/240",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  },
+  "dishwasher": {
+   "model": "DW-24P1",
+   "volts": "120",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  },
+  "range": {
+   "model": "RNG-30E",
+   "volts": "120/240",
+   "capacity": "12.2 KW",
+   "checks": [
+    "model",
+    "volts",
+    "capacity"
+   ]
+  },
+  "panel": {
+   "model": "PNL-200",
+   "volts": "120/240",
+   "checks": [
+    "model",
+    "volts"
+   ]
+  }
+ }
+}

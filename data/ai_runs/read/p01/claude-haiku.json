@@ -1,0 +1,26 @@
+{
+ "photo": "p01",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:16:46",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "db690f73a839aa4a",
+ "user": "Photo p01, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "```json\n{\"fields\": {\"model\": {\"status\": \"read\", \"value\": \"HPA4-36B2C\", \"label\": \"MODEL NO.\", \"box\": [0.399, 0.261, 0.517, 0.287]},\n\"volts\": {\"status\": \"read\", \"value\": \"208/230\", \"label\": \"VOLTS-PH-HZ\", \"box\": [0.399, 0.352, 0.526, 0.378]},\n\"phase\": {\"status\": \"read\", \"value\": \"1\", \"label\": \"VOLTS-PH-HZ\", \"box\": [0.483, 0.352, 0.494, 0.378]},\n\"amps\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"mca\": {\"status\": \"read\", \"value\": \"18.6\", \"label\": \"MIN. CIRCUIT AMPACITY\", \"box\": [0.399, 0.400, 0.435, 0.423]},\n\"max_breaker\": {\"status\": \"read\", \"value\": \"25\", \"label\": \"MAX. FUSE OR CKT. BKR.\", \"box\": [0.399, 0.446, 0.422, 0.468]},\n\"capacity\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null},\n\"refrigerant\": {\"status\": \"read\", \"value\": \"R-454B\", \"label\": \"REFRIGERANT\", \"box\": [0.399, 0.627, 0.468, 0.651]},\n\"breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}}}\n```",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 6730,
+ "meta": {
+  "ms": 6727,
+  "input_tokens": 3505,
+  "output_tokens": 1199,
+  "cost_usd": 0.00095,
+  "models": [
+   "claude-haiku-5-5"
+  ],
+  "stop_reason": "end_turn"
+ },
+ "redacted": 0
+}

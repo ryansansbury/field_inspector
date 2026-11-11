@@ -1,0 +1,25 @@
+{
+ "photo": "p31",
+ "model": "stand-in",
+ "label": "Stand-in (no model)",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:03:09",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "d9a8698e6f84901d",
+ "user": "Photo p31, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "{\"fields\": {\"model\": {\"status\": \"read\", \"value\": \"CA13-24A1\", \"label\": null, \"box\": [0.2986, 0.3455, 0.403, 0.368]}, \"volts\": {\"status\": \"read\", \"value\": \"208/230\", \"label\": null, \"box\": [0.2981, 0.4404, 0.3817, 0.4677]}, \"phase\": {\"status\": \"read\", \"value\": \"1\", \"label\": null, \"box\": [0.3908, 0.441, 0.3993, 0.4678]}, \"amps\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"mca\": {\"status\": \"read\", \"value\": \"15.2\", \"label\": null, \"box\": [0.2979, 0.4898, 0.3365, 0.5123]}, \"max_breaker\": {\"status\": \"read\", \"value\": \"20\", \"label\": null, \"box\": [0.2977, 0.5379, 0.3231, 0.5603]}, \"capacity\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"refrigerant\": {\"status\": \"read\", \"value\": \"R-410A\", \"label\": null, \"box\": [0.2971, 0.6822, 0.3676, 0.7054]}, \"breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}}}",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 0,
+ "meta": {
+  "ms": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cost_usd": 0.0,
+  "models": [
+   "stand-in"
+  ]
+ },
+ "redacted": 0
+}

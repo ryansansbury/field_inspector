@@ -1,0 +1,1601 @@
+{
+ "bars": {
+  "accuracy": 0.9,
+  "missed_decisions": 0,
+  "past_line": 0
+ },
+ "line_default": "partial",
+ "models": {
+  "claude-haiku": {
+   "dev": {
+    "bars": {
+     "accuracy": true,
+     "decisions": true,
+     "past_line": true
+    },
+    "by_field": {
+     "amps": {
+      "accuracy": 1.0,
+      "correct": 6,
+      "false": 0,
+      "key": 6,
+      "miss": 0,
+      "right_empty": 4,
+      "wrong": 0
+     },
+     "breaker": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 8,
+      "wrong": 0
+     },
+     "capacity": {
+      "accuracy": null,
+      "correct": 0,
+      "false": 0,
+      "key": 0,
+      "miss": 0,
+      "right_empty": 10,
+      "wrong": 0
+     },
+     "max_breaker": {
+      "accuracy": 0.5,
+      "correct": 1,
+      "false": 0,
+      "key": 2,
+      "miss": 1,
+      "right_empty": 8,
+      "wrong": 0
+     },
+     "mca": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 8,
+      "wrong": 0
+     },
+     "model": {
+      "accuracy": 0.875,
+      "correct": 7,
+      "false": 0,
+      "key": 8,
+      "miss": 1,
+      "right_empty": 2,
+      "wrong": 0
+     },
+     "phase": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 8,
+      "wrong": 0
+     },
+     "refrigerant": {
+      "accuracy": 1.0,
+      "correct": 6,
+      "false": 0,
+      "key": 6,
+      "miss": 0,
+      "right_empty": 4,
+      "wrong": 0
+     },
+     "volts": {
+      "accuracy": 1.0,
+      "correct": 8,
+      "false": 0,
+      "key": 8,
+      "miss": 0,
+      "right_empty": 2,
+      "wrong": 0
+     }
+    },
+    "by_shot": {
+     "angled": {
+      "accuracy": 1.0,
+      "correct": 4,
+      "false": 0,
+      "key": 4,
+      "miss": 0,
+      "right_empty": 5,
+      "wrong": 0
+     },
+     "glare": {
+      "accuracy": 0.818,
+      "correct": 9,
+      "false": 0,
+      "key": 11,
+      "miss": 2,
+      "right_empty": 16,
+      "wrong": 0
+     },
+     "low light": {
+      "accuracy": 1.0,
+      "correct": 3,
+      "false": 0,
+      "key": 3,
+      "miss": 0,
+      "right_empty": 6,
+      "wrong": 0
+     },
+     "straight": {
+      "accuracy": 1.0,
+      "correct": 18,
+      "false": 0,
+      "key": 18,
+      "miss": 0,
+      "right_empty": 27,
+      "wrong": 0
+     }
+    },
+    "checks": {
+     "agree": 24,
+     "caught": 2,
+     "missed": 0,
+     "missed_list": [],
+     "total": 26
+    },
+    "cost_per_photo": 0.00097,
+    "fields": {
+     "accuracy": 0.944,
+     "correct": 34,
+     "false": 0,
+     "key": 36,
+     "miss": 2,
+     "right_empty": 54,
+     "wrong": 0
+    },
+    "levels": {
+     "found": {
+      "reads": 33,
+      "wrong": 0
+     },
+     "missing": {
+      "reads": 2,
+      "wrong": 0
+     },
+     "partial": {
+      "reads": 1,
+      "wrong": 0
+     }
+    },
+    "line": {
+     "all": {
+      "caught": 0,
+      "past": 0,
+      "sent": 36,
+      "share": 1.0
+     },
+     "missing": {
+      "caught": 0,
+      "past": 0,
+      "sent": 2,
+      "share": 0.056
+     },
+     "partial": {
+      "caught": 0,
+      "past": 0,
+      "sent": 3,
+      "share": 0.083
+     }
+    },
+    "photos": 10,
+    "recorded": 10,
+    "seconds_per_photo": 5.2
+   },
+   "job": {
+    "bars": {
+     "accuracy": true,
+     "decisions": true,
+     "past_line": true
+    },
+    "by_field": {
+     "amps": {
+      "accuracy": 1.0,
+      "correct": 6,
+      "false": 0,
+      "key": 6,
+      "miss": 0,
+      "right_empty": 7,
+      "wrong": 0
+     },
+     "breaker": {
+      "accuracy": 1.0,
+      "correct": 3,
+      "false": 0,
+      "key": 3,
+      "miss": 0,
+      "right_empty": 10,
+      "wrong": 0
+     },
+     "capacity": {
+      "accuracy": 1.0,
+      "correct": 4,
+      "false": 0,
+      "key": 4,
+      "miss": 0,
+      "right_empty": 9,
+      "wrong": 0
+     },
+     "max_breaker": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 11,
+      "wrong": 0
+     },
+     "mca": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 11,
+      "wrong": 0
+     },
+     "model": {
+      "accuracy": 0.9,
+      "correct": 9,
+      "false": 0,
+      "key": 10,
+      "miss": 1,
+      "right_empty": 3,
+      "wrong": 0
+     },
+     "phase": {
+      "accuracy": 1.0,
+      "correct": 5,
+      "false": 0,
+      "key": 5,
+      "miss": 0,
+      "right_empty": 8,
+      "wrong": 0
+     },
+     "refrigerant": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 11,
+      "wrong": 0
+     },
+     "volts": {
+      "accuracy": 1.0,
+      "correct": 10,
+      "false": 0,
+      "key": 10,
+      "miss": 0,
+      "right_empty": 3,
+      "wrong": 0
+     }
+    },
+    "by_shot": {
+     "glare": {
+      "accuracy": 0.75,
+      "correct": 3,
+      "false": 0,
+      "key": 4,
+      "miss": 1,
+      "right_empty": 5,
+      "wrong": 0
+     },
+     "straight": {
+      "accuracy": 1.0,
+      "correct": 40,
+      "false": 0,
+      "key": 40,
+      "miss": 0,
+      "right_empty": 68,
+      "wrong": 0
+     }
+    },
+    "checks": {
+     "agree": 30,
+     "caught": 1,
+     "missed": 0,
+     "missed_list": [],
+     "total": 31
+    },
+    "cost_per_photo": 0.0008,
+    "fields": {
+     "accuracy": 0.977,
+     "correct": 43,
+     "false": 0,
+     "key": 44,
+     "miss": 1,
+     "right_empty": 73,
+     "wrong": 0
+    },
+    "levels": {
+     "found": {
+      "reads": 43,
+      "wrong": 0
+     },
+     "missing": {
+      "reads": 1,
+      "wrong": 0
+     },
+     "partial": {
+      "reads": 0,
+      "wrong": 0
+     }
+    },
+    "line": {
+     "all": {
+      "caught": 0,
+      "past": 0,
+      "sent": 44,
+      "share": 1.0
+     },
+     "missing": {
+      "caught": 0,
+      "past": 0,
+      "sent": 1,
+      "share": 0.023
+     },
+     "partial": {
+      "caught": 0,
+      "past": 0,
+      "sent": 1,
+      "share": 0.023
+     }
+    },
+    "photos": 13,
+    "recorded": 13,
+    "seconds_per_photo": 4.3
+   },
+   "test": {
+    "bars": {
+     "accuracy": true,
+     "decisions": true,
+     "past_line": true
+    },
+    "by_field": {
+     "amps": {
+      "accuracy": 1.0,
+      "correct": 17,
+      "false": 0,
+      "key": 17,
+      "miss": 0,
+      "right_empty": 18,
+      "wrong": 0
+     },
+     "breaker": {
+      "accuracy": 1.0,
+      "correct": 6,
+      "false": 0,
+      "key": 6,
+      "miss": 0,
+      "right_empty": 29,
+      "wrong": 0
+     },
+     "capacity": {
+      "accuracy": 1.0,
+      "correct": 16,
+      "false": 0,
+      "key": 16,
+      "miss": 0,
+      "right_empty": 19,
+      "wrong": 0
+     },
+     "max_breaker": {
+      "accuracy": 1.0,
+      "correct": 10,
+      "false": 0,
+      "key": 10,
+      "miss": 0,
+      "right_empty": 25,
+      "wrong": 0
+     },
+     "mca": {
+      "accuracy": 1.0,
+      "correct": 8,
+      "false": 0,
+      "key": 8,
+      "miss": 0,
+      "right_empty": 27,
+      "wrong": 0
+     },
+     "model": {
+      "accuracy": 0.966,
+      "correct": 28,
+      "false": 0,
+      "key": 29,
+      "miss": 1,
+      "right_empty": 6,
+      "wrong": 0
+     },
+     "phase": {
+      "accuracy": 1.0,
+      "correct": 16,
+      "false": 0,
+      "key": 16,
+      "miss": 0,
+      "right_empty": 19,
+      "wrong": 0
+     },
+     "refrigerant": {
+      "accuracy": 1.0,
+      "correct": 8,
+      "false": 0,
+      "key": 8,
+      "miss": 0,
+      "right_empty": 27,
+      "wrong": 0
+     },
+     "volts": {
+      "accuracy": 1.0,
+      "correct": 29,
+      "false": 0,
+      "key": 29,
+      "miss": 0,
+      "right_empty": 6,
+      "wrong": 0
+     }
+    },
+    "by_shot": {
+     "angled": {
+      "accuracy": 1.0,
+      "correct": 38,
+      "false": 0,
+      "key": 38,
+      "miss": 0,
+      "right_empty": 52,
+      "wrong": 0
+     },
+     "glare": {
+      "accuracy": 0.95,
+      "correct": 19,
+      "false": 0,
+      "key": 20,
+      "miss": 1,
+      "right_empty": 16,
+      "wrong": 0
+     },
+     "low light": {
+      "accuracy": 1.0,
+      "correct": 20,
+      "false": 0,
+      "key": 20,
+      "miss": 0,
+      "right_empty": 25,
+      "wrong": 0
+     },
+     "straight": {
+      "accuracy": 1.0,
+      "correct": 61,
+      "false": 0,
+      "key": 61,
+      "miss": 0,
+      "right_empty": 83,
+      "wrong": 0
+     }
+    },
+    "checks": {
+     "agree": 92,
+     "caught": 1,
+     "missed": 0,
+     "missed_list": [],
+     "total": 93
+    },
+    "cost_per_photo": 0.00085,
+    "fields": {
+     "accuracy": 0.993,
+     "correct": 138,
+     "false": 0,
+     "key": 139,
+     "miss": 1,
+     "right_empty": 176,
+     "wrong": 0
+    },
+    "levels": {
+     "found": {
+      "reads": 137,
+      "wrong": 0
+     },
+     "missing": {
+      "reads": 1,
+      "wrong": 0
+     },
+     "partial": {
+      "reads": 1,
+      "wrong": 0
+     }
+    },
+    "line": {
+     "all": {
+      "caught": 0,
+      "past": 0,
+      "sent": 139,
+      "share": 1.0
+     },
+     "missing": {
+      "caught": 0,
+      "past": 0,
+      "sent": 1,
+      "share": 0.007
+     },
+     "partial": {
+      "caught": 0,
+      "past": 0,
+      "sent": 2,
+      "share": 0.014
+     }
+    },
+    "photos": 35,
+    "recorded": 35,
+    "seconds_per_photo": 4.7
+   }
+  },
+  "claude-sonnet": {
+   "dev": {
+    "bars": {
+     "accuracy": true,
+     "decisions": true,
+     "past_line": true
+    },
+    "by_field": {
+     "amps": {
+      "accuracy": 1.0,
+      "correct": 6,
+      "false": 0,
+      "key": 6,
+      "miss": 0,
+      "right_empty": 4,
+      "wrong": 0
+     },
+     "breaker": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 8,
+      "wrong": 0
+     },
+     "capacity": {
+      "accuracy": null,
+      "correct": 0,
+      "false": 0,
+      "key": 0,
+      "miss": 0,
+      "right_empty": 10,
+      "wrong": 0
+     },
+     "max_breaker": {
+      "accuracy": 0.5,
+      "correct": 1,
+      "false": 0,
+      "key": 2,
+      "miss": 1,
+      "right_empty": 8,
+      "wrong": 0
+     },
+     "mca": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 8,
+      "wrong": 0
+     },
+     "model": {
+      "accuracy": 1.0,
+      "correct": 8,
+      "false": 0,
+      "key": 8,
+      "miss": 0,
+      "right_empty": 2,
+      "wrong": 0
+     },
+     "phase": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 8,
+      "wrong": 0
+     },
+     "refrigerant": {
+      "accuracy": 1.0,
+      "correct": 6,
+      "false": 0,
+      "key": 6,
+      "miss": 0,
+      "right_empty": 4,
+      "wrong": 0
+     },
+     "volts": {
+      "accuracy": 1.0,
+      "correct": 8,
+      "false": 0,
+      "key": 8,
+      "miss": 0,
+      "right_empty": 2,
+      "wrong": 0
+     }
+    },
+    "by_shot": {
+     "angled": {
+      "accuracy": 1.0,
+      "correct": 4,
+      "false": 0,
+      "key": 4,
+      "miss": 0,
+      "right_empty": 5,
+      "wrong": 0
+     },
+     "glare": {
+      "accuracy": 0.909,
+      "correct": 10,
+      "false": 0,
+      "key": 11,
+      "miss": 1,
+      "right_empty": 16,
+      "wrong": 0
+     },
+     "low light": {
+      "accuracy": 1.0,
+      "correct": 3,
+      "false": 0,
+      "key": 3,
+      "miss": 0,
+      "right_empty": 6,
+      "wrong": 0
+     },
+     "straight": {
+      "accuracy": 1.0,
+      "correct": 18,
+      "false": 0,
+      "key": 18,
+      "miss": 0,
+      "right_empty": 27,
+      "wrong": 0
+     }
+    },
+    "checks": {
+     "agree": 25,
+     "caught": 1,
+     "missed": 0,
+     "missed_list": [],
+     "total": 26
+    },
+    "cost_per_photo": 0.01444,
+    "fields": {
+     "accuracy": 0.972,
+     "correct": 35,
+     "false": 0,
+     "key": 36,
+     "miss": 1,
+     "right_empty": 54,
+     "wrong": 0
+    },
+    "levels": {
+     "found": {
+      "reads": 34,
+      "wrong": 0
+     },
+     "missing": {
+      "reads": 1,
+      "wrong": 0
+     },
+     "partial": {
+      "reads": 1,
+      "wrong": 0
+     }
+    },
+    "line": {
+     "all": {
+      "caught": 0,
+      "past": 0,
+      "sent": 36,
+      "share": 1.0
+     },
+     "missing": {
+      "caught": 0,
+      "past": 0,
+      "sent": 1,
+      "share": 0.028
+     },
+     "partial": {
+      "caught": 0,
+      "past": 0,
+      "sent": 2,
+      "share": 0.056
+     }
+    },
+    "photos": 10,
+    "recorded": 10,
+    "seconds_per_photo": 5.8
+   },
+   "job": {
+    "bars": {
+     "accuracy": true,
+     "decisions": true,
+     "past_line": true
+    },
+    "by_field": {
+     "amps": {
+      "accuracy": 1.0,
+      "correct": 6,
+      "false": 0,
+      "key": 6,
+      "miss": 0,
+      "right_empty": 7,
+      "wrong": 0
+     },
+     "breaker": {
+      "accuracy": 1.0,
+      "correct": 3,
+      "false": 0,
+      "key": 3,
+      "miss": 0,
+      "right_empty": 10,
+      "wrong": 0
+     },
+     "capacity": {
+      "accuracy": 1.0,
+      "correct": 4,
+      "false": 0,
+      "key": 4,
+      "miss": 0,
+      "right_empty": 9,
+      "wrong": 0
+     },
+     "max_breaker": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 11,
+      "wrong": 0
+     },
+     "mca": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 11,
+      "wrong": 0
+     },
+     "model": {
+      "accuracy": 0.9,
+      "correct": 9,
+      "false": 0,
+      "key": 10,
+      "miss": 1,
+      "right_empty": 3,
+      "wrong": 0
+     },
+     "phase": {
+      "accuracy": 1.0,
+      "correct": 5,
+      "false": 0,
+      "key": 5,
+      "miss": 0,
+      "right_empty": 8,
+      "wrong": 0
+     },
+     "refrigerant": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 11,
+      "wrong": 0
+     },
+     "volts": {
+      "accuracy": 1.0,
+      "correct": 10,
+      "false": 0,
+      "key": 10,
+      "miss": 0,
+      "right_empty": 3,
+      "wrong": 0
+     }
+    },
+    "by_shot": {
+     "glare": {
+      "accuracy": 0.75,
+      "correct": 3,
+      "false": 0,
+      "key": 4,
+      "miss": 1,
+      "right_empty": 5,
+      "wrong": 0
+     },
+     "straight": {
+      "accuracy": 1.0,
+      "correct": 40,
+      "false": 0,
+      "key": 40,
+      "miss": 0,
+      "right_empty": 68,
+      "wrong": 0
+     }
+    },
+    "checks": {
+     "agree": 30,
+     "caught": 1,
+     "missed": 0,
+     "missed_list": [],
+     "total": 31
+    },
+    "cost_per_photo": 0.0136,
+    "fields": {
+     "accuracy": 0.977,
+     "correct": 43,
+     "false": 0,
+     "key": 44,
+     "miss": 1,
+     "right_empty": 73,
+     "wrong": 0
+    },
+    "levels": {
+     "found": {
+      "reads": 43,
+      "wrong": 0
+     },
+     "missing": {
+      "reads": 1,
+      "wrong": 0
+     },
+     "partial": {
+      "reads": 0,
+      "wrong": 0
+     }
+    },
+    "line": {
+     "all": {
+      "caught": 0,
+      "past": 0,
+      "sent": 44,
+      "share": 1.0
+     },
+     "missing": {
+      "caught": 0,
+      "past": 0,
+      "sent": 1,
+      "share": 0.023
+     },
+     "partial": {
+      "caught": 0,
+      "past": 0,
+      "sent": 1,
+      "share": 0.023
+     }
+    },
+    "photos": 13,
+    "recorded": 13,
+    "seconds_per_photo": 5.5
+   },
+   "test": {
+    "bars": {
+     "accuracy": true,
+     "decisions": true,
+     "past_line": true
+    },
+    "by_field": {
+     "amps": {
+      "accuracy": 1.0,
+      "correct": 17,
+      "false": 0,
+      "key": 17,
+      "miss": 0,
+      "right_empty": 18,
+      "wrong": 0
+     },
+     "breaker": {
+      "accuracy": 1.0,
+      "correct": 6,
+      "false": 0,
+      "key": 6,
+      "miss": 0,
+      "right_empty": 29,
+      "wrong": 0
+     },
+     "capacity": {
+      "accuracy": 1.0,
+      "correct": 16,
+      "false": 0,
+      "key": 16,
+      "miss": 0,
+      "right_empty": 19,
+      "wrong": 0
+     },
+     "max_breaker": {
+      "accuracy": 1.0,
+      "correct": 10,
+      "false": 0,
+      "key": 10,
+      "miss": 0,
+      "right_empty": 25,
+      "wrong": 0
+     },
+     "mca": {
+      "accuracy": 1.0,
+      "correct": 8,
+      "false": 0,
+      "key": 8,
+      "miss": 0,
+      "right_empty": 27,
+      "wrong": 0
+     },
+     "model": {
+      "accuracy": 0.966,
+      "correct": 28,
+      "false": 0,
+      "key": 29,
+      "miss": 1,
+      "right_empty": 6,
+      "wrong": 0
+     },
+     "phase": {
+      "accuracy": 1.0,
+      "correct": 16,
+      "false": 0,
+      "key": 16,
+      "miss": 0,
+      "right_empty": 19,
+      "wrong": 0
+     },
+     "refrigerant": {
+      "accuracy": 1.0,
+      "correct": 8,
+      "false": 0,
+      "key": 8,
+      "miss": 0,
+      "right_empty": 27,
+      "wrong": 0
+     },
+     "volts": {
+      "accuracy": 1.0,
+      "correct": 29,
+      "false": 0,
+      "key": 29,
+      "miss": 0,
+      "right_empty": 6,
+      "wrong": 0
+     }
+    },
+    "by_shot": {
+     "angled": {
+      "accuracy": 1.0,
+      "correct": 38,
+      "false": 0,
+      "key": 38,
+      "miss": 0,
+      "right_empty": 52,
+      "wrong": 0
+     },
+     "glare": {
+      "accuracy": 0.95,
+      "correct": 19,
+      "false": 0,
+      "key": 20,
+      "miss": 1,
+      "right_empty": 16,
+      "wrong": 0
+     },
+     "low light": {
+      "accuracy": 1.0,
+      "correct": 20,
+      "false": 0,
+      "key": 20,
+      "miss": 0,
+      "right_empty": 25,
+      "wrong": 0
+     },
+     "straight": {
+      "accuracy": 1.0,
+      "correct": 61,
+      "false": 0,
+      "key": 61,
+      "miss": 0,
+      "right_empty": 83,
+      "wrong": 0
+     }
+    },
+    "checks": {
+     "agree": 92,
+     "caught": 1,
+     "missed": 0,
+     "missed_list": [],
+     "total": 93
+    },
+    "cost_per_photo": 0.01457,
+    "fields": {
+     "accuracy": 0.993,
+     "correct": 138,
+     "false": 0,
+     "key": 139,
+     "miss": 1,
+     "right_empty": 176,
+     "wrong": 0
+    },
+    "levels": {
+     "found": {
+      "reads": 137,
+      "wrong": 0
+     },
+     "missing": {
+      "reads": 1,
+      "wrong": 0
+     },
+     "partial": {
+      "reads": 1,
+      "wrong": 0
+     }
+    },
+    "line": {
+     "all": {
+      "caught": 0,
+      "past": 0,
+      "sent": 139,
+      "share": 1.0
+     },
+     "missing": {
+      "caught": 0,
+      "past": 0,
+      "sent": 1,
+      "share": 0.007
+     },
+     "partial": {
+      "caught": 0,
+      "past": 0,
+      "sent": 2,
+      "share": 0.014
+     }
+    },
+    "photos": 35,
+    "recorded": 35,
+    "seconds_per_photo": 6.1
+   }
+  },
+  "openai-luna": {
+   "dev": {
+    "bars": {
+     "accuracy": true,
+     "decisions": true,
+     "past_line": true
+    },
+    "by_field": {
+     "amps": {
+      "accuracy": 1.0,
+      "correct": 6,
+      "false": 0,
+      "key": 6,
+      "miss": 0,
+      "right_empty": 4,
+      "wrong": 0
+     },
+     "breaker": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 8,
+      "wrong": 0
+     },
+     "capacity": {
+      "accuracy": null,
+      "correct": 0,
+      "false": 0,
+      "key": 0,
+      "miss": 0,
+      "right_empty": 10,
+      "wrong": 0
+     },
+     "max_breaker": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 8,
+      "wrong": 0
+     },
+     "mca": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 8,
+      "wrong": 0
+     },
+     "model": {
+      "accuracy": 1.0,
+      "correct": 8,
+      "false": 0,
+      "key": 8,
+      "miss": 0,
+      "right_empty": 2,
+      "wrong": 0
+     },
+     "phase": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 8,
+      "wrong": 0
+     },
+     "refrigerant": {
+      "accuracy": 1.0,
+      "correct": 6,
+      "false": 0,
+      "key": 6,
+      "miss": 0,
+      "right_empty": 4,
+      "wrong": 0
+     },
+     "volts": {
+      "accuracy": 1.0,
+      "correct": 8,
+      "false": 0,
+      "key": 8,
+      "miss": 0,
+      "right_empty": 2,
+      "wrong": 0
+     }
+    },
+    "by_shot": {
+     "angled": {
+      "accuracy": 1.0,
+      "correct": 4,
+      "false": 0,
+      "key": 4,
+      "miss": 0,
+      "right_empty": 5,
+      "wrong": 0
+     },
+     "glare": {
+      "accuracy": 1.0,
+      "correct": 11,
+      "false": 0,
+      "key": 11,
+      "miss": 0,
+      "right_empty": 16,
+      "wrong": 0
+     },
+     "low light": {
+      "accuracy": 1.0,
+      "correct": 3,
+      "false": 0,
+      "key": 3,
+      "miss": 0,
+      "right_empty": 6,
+      "wrong": 0
+     },
+     "straight": {
+      "accuracy": 1.0,
+      "correct": 18,
+      "false": 0,
+      "key": 18,
+      "miss": 0,
+      "right_empty": 27,
+      "wrong": 0
+     }
+    },
+    "checks": {
+     "agree": 26,
+     "caught": 0,
+     "missed": 0,
+     "missed_list": [],
+     "total": 26
+    },
+    "cost_per_photo": 0.00059,
+    "fields": {
+     "accuracy": 1.0,
+     "correct": 36,
+     "false": 0,
+     "key": 36,
+     "miss": 0,
+     "right_empty": 54,
+     "wrong": 0
+    },
+    "levels": {
+     "found": {
+      "reads": 35,
+      "wrong": 0
+     },
+     "missing": {
+      "reads": 0,
+      "wrong": 0
+     },
+     "partial": {
+      "reads": 1,
+      "wrong": 0
+     }
+    },
+    "line": {
+     "all": {
+      "caught": 0,
+      "past": 0,
+      "sent": 36,
+      "share": 1.0
+     },
+     "missing": {
+      "caught": 0,
+      "past": 0,
+      "sent": 0,
+      "share": 0.0
+     },
+     "partial": {
+      "caught": 0,
+      "past": 0,
+      "sent": 1,
+      "share": 0.028
+     }
+    },
+    "photos": 10,
+    "recorded": 10,
+    "seconds_per_photo": 6.0
+   },
+   "job": {
+    "bars": {
+     "accuracy": true,
+     "decisions": true,
+     "past_line": true
+    },
+    "by_field": {
+     "amps": {
+      "accuracy": 1.0,
+      "correct": 6,
+      "false": 0,
+      "key": 6,
+      "miss": 0,
+      "right_empty": 7,
+      "wrong": 0
+     },
+     "breaker": {
+      "accuracy": 1.0,
+      "correct": 3,
+      "false": 0,
+      "key": 3,
+      "miss": 0,
+      "right_empty": 10,
+      "wrong": 0
+     },
+     "capacity": {
+      "accuracy": 1.0,
+      "correct": 4,
+      "false": 0,
+      "key": 4,
+      "miss": 0,
+      "right_empty": 9,
+      "wrong": 0
+     },
+     "max_breaker": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 11,
+      "wrong": 0
+     },
+     "mca": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 11,
+      "wrong": 0
+     },
+     "model": {
+      "accuracy": 0.9,
+      "correct": 9,
+      "false": 0,
+      "key": 10,
+      "miss": 1,
+      "right_empty": 3,
+      "wrong": 0
+     },
+     "phase": {
+      "accuracy": 1.0,
+      "correct": 5,
+      "false": 0,
+      "key": 5,
+      "miss": 0,
+      "right_empty": 8,
+      "wrong": 0
+     },
+     "refrigerant": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "false": 0,
+      "key": 2,
+      "miss": 0,
+      "right_empty": 11,
+      "wrong": 0
+     },
+     "volts": {
+      "accuracy": 1.0,
+      "correct": 10,
+      "false": 0,
+      "key": 10,
+      "miss": 0,
+      "right_empty": 3,
+      "wrong": 0
+     }
+    },
+    "by_shot": {
+     "glare": {
+      "accuracy": 0.75,
+      "correct": 3,
+      "false": 0,
+      "key": 4,
+      "miss": 1,
+      "right_empty": 5,
+      "wrong": 0
+     },
+     "straight": {
+      "accuracy": 1.0,
+      "correct": 40,
+      "false": 0,
+      "key": 40,
+      "miss": 0,
+      "right_empty": 68,
+      "wrong": 0
+     }
+    },
+    "checks": {
+     "agree": 30,
+     "caught": 1,
+     "missed": 0,
+     "missed_list": [],
+     "total": 31
+    },
+    "cost_per_photo": 0.00059,
+    "fields": {
+     "accuracy": 0.977,
+     "correct": 43,
+     "false": 0,
+     "key": 44,
+     "miss": 1,
+     "right_empty": 73,
+     "wrong": 0
+    },
+    "levels": {
+     "found": {
+      "reads": 43,
+      "wrong": 0
+     },
+     "missing": {
+      "reads": 1,
+      "wrong": 0
+     },
+     "partial": {
+      "reads": 0,
+      "wrong": 0
+     }
+    },
+    "line": {
+     "all": {
+      "caught": 0,
+      "past": 0,
+      "sent": 44,
+      "share": 1.0
+     },
+     "missing": {
+      "caught": 0,
+      "past": 0,
+      "sent": 1,
+      "share": 0.023
+     },
+     "partial": {
+      "caught": 0,
+      "past": 0,
+      "sent": 1,
+      "share": 0.023
+     }
+    },
+    "photos": 13,
+    "recorded": 13,
+    "seconds_per_photo": 6.0
+   },
+   "test": {
+    "bars": {
+     "accuracy": true,
+     "decisions": true,
+     "past_line": true
+    },
+    "by_field": {
+     "amps": {
+      "accuracy": 1.0,
+      "correct": 17,
+      "false": 0,
+      "key": 17,
+      "miss": 0,
+      "right_empty": 18,
+      "wrong": 0
+     },
+     "breaker": {
+      "accuracy": 1.0,
+      "correct": 6,
+      "false": 0,
+      "key": 6,
+      "miss": 0,
+      "right_empty": 29,
+      "wrong": 0
+     },
+     "capacity": {
+      "accuracy": 1.0,
+      "correct": 16,
+      "false": 0,
+      "key": 16,
+      "miss": 0,
+      "right_empty": 19,
+      "wrong": 0
+     },
+     "max_breaker": {
+      "accuracy": 1.0,
+      "correct": 10,
+      "false": 0,
+      "key": 10,
+      "miss": 0,
+      "right_empty": 25,
+      "wrong": 0
+     },
+     "mca": {
+      "accuracy": 1.0,
+      "correct": 8,
+      "false": 0,
+      "key": 8,
+      "miss": 0,
+      "right_empty": 27,
+      "wrong": 0
+     },
+     "model": {
+      "accuracy": 0.966,
+      "correct": 28,
+      "false": 0,
+      "key": 29,
+      "miss": 1,
+      "right_empty": 6,
+      "wrong": 0
+     },
+     "phase": {
+      "accuracy": 1.0,
+      "correct": 16,
+      "false": 0,
+      "key": 16,
+      "miss": 0,
+      "right_empty": 19,
+      "wrong": 0
+     },
+     "refrigerant": {
+      "accuracy": 1.0,
+      "correct": 8,
+      "false": 0,
+      "key": 8,
+      "miss": 0,
+      "right_empty": 27,
+      "wrong": 0
+     },
+     "volts": {
+      "accuracy": 1.0,
+      "correct": 29,
+      "false": 0,
+      "key": 29,
+      "miss": 0,
+      "right_empty": 6,
+      "wrong": 0
+     }
+    },
+    "by_shot": {
+     "angled": {
+      "accuracy": 1.0,
+      "correct": 38,
+      "false": 0,
+      "key": 38,
+      "miss": 0,
+      "right_empty": 52,
+      "wrong": 0
+     },
+     "glare": {
+      "accuracy": 0.95,
+      "correct": 19,
+      "false": 0,
+      "key": 20,
+      "miss": 1,
+      "right_empty": 16,
+      "wrong": 0
+     },
+     "low light": {
+      "accuracy": 1.0,
+      "correct": 20,
+      "false": 0,
+      "key": 20,
+      "miss": 0,
+      "right_empty": 25,
+      "wrong": 0
+     },
+     "straight": {
+      "accuracy": 1.0,
+      "correct": 61,
+      "false": 0,
+      "key": 61,
+      "miss": 0,
+      "right_empty": 83,
+      "wrong": 0
+     }
+    },
+    "checks": {
+     "agree": 92,
+     "caught": 1,
+     "missed": 0,
+     "missed_list": [],
+     "total": 93
+    },
+    "cost_per_photo": 0.00064,
+    "fields": {
+     "accuracy": 0.993,
+     "correct": 138,
+     "false": 0,
+     "key": 139,
+     "miss": 1,
+     "right_empty": 176,
+     "wrong": 0
+    },
+    "levels": {
+     "found": {
+      "reads": 137,
+      "wrong": 0
+     },
+     "missing": {
+      "reads": 1,
+      "wrong": 0
+     },
+     "partial": {
+      "reads": 1,
+      "wrong": 0
+     }
+    },
+    "line": {
+     "all": {
+      "caught": 0,
+      "past": 0,
+      "sent": 139,
+      "share": 1.0
+     },
+     "missing": {
+      "caught": 0,
+      "past": 0,
+      "sent": 1,
+      "share": 0.007
+     },
+     "partial": {
+      "caught": 0,
+      "past": 0,
+      "sent": 2,
+      "share": 0.014
+     }
+    },
+    "photos": 35,
+    "recorded": 35,
+    "seconds_per_photo": 6.8
+   }
+  }
+ },
+ "preview": false
+}

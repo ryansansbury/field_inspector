@@ -1,0 +1,25 @@
+{
+ "photo": "p32",
+ "model": "stand-in",
+ "label": "Stand-in (no model)",
+ "date": "2026-11-09",
+ "recorded_at": "2026-11-09T22:03:09",
+ "prompt_hash": "45a4af6ec9e5f6ab",
+ "input_hash": "b381af2f56a9a2c7",
+ "user": "Photo p32, 1568 by 1176 pixels. Read every field and answer with the JSON object only.",
+ "reply": "{\"fields\": {\"model\": {\"status\": \"read\", \"value\": \"GDO-1200\", \"label\": null, \"box\": [0.2511, 0.417, 0.3746, 0.4451]}, \"volts\": {\"status\": \"read\", \"value\": \"120\", \"label\": null, \"box\": [0.1299, 0.4748, 0.1713, 0.5022]}, \"phase\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"amps\": {\"status\": \"read\", \"value\": \"5.0\", \"label\": null, \"box\": [0.3319, 0.473, 0.369, 0.5003]}, \"mca\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"max_breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"capacity\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"refrigerant\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}, \"breaker\": {\"status\": \"absent\", \"value\": null, \"label\": null, \"box\": null}}}",
+ "repaired": false,
+ "problems": [],
+ "held": [],
+ "ms": 0,
+ "meta": {
+  "ms": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cost_usd": 0.0,
+  "models": [
+   "stand-in"
+  ]
+ },
+ "redacted": 0
+}

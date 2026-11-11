@@ -1,0 +1,14 @@
+{
+ "rounds": [
+  {
+   "date": "2026-11-09",
+   "model": "claude-sonnet",
+   "prompt": "45a4af6ec9e5f6ab",
+   "accuracy": 0.972,
+   "past_line": 0,
+   "missed_verdicts": 0,
+   "person_share": 0.056,
+   "round": 1
+  }
+ ]
+}
