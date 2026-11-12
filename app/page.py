@@ -44,9 +44,13 @@ def money(x):
 
 
 def table(head, rows, cls="tbl"):
+    """A table in How it works. Each cell carries its column's name, so on a phone a table wider than three columns can
+    become one labeled card per row (app.css), and a desktop shows the table as it was."""
     h = "".join(f"<th scope='col'>{esc(c)}</th>" for c in head)
-    body = "".join("<tr>" + "".join(f"<td>{esc(c)}</td>" for c in r) + "</tr>" for r in rows)
-    return f"<div class='scroll'><table class='{cls}'><thead><tr>{h}</tr></thead><tbody>{body}</tbody></table></div>"
+    body = "".join("<tr>" + "".join(f"<td data-label='{esc(head[i]) if i < len(head) else ''}'>{esc(c)}</td>"
+                                    for i, c in enumerate(r)) + "</tr>" for r in rows)
+    wide = " wide" if len(head) > 3 else ""
+    return f"<div class='scroll'><table class='{cls}{wide}'><thead><tr>{h}</tr></thead><tbody>{body}</tbody></table></div>"
 
 
 def header(w, data):

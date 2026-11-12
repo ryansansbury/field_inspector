@@ -575,6 +575,7 @@
     var b = $("#open-how");
     b.textContent = how ? b.getAttribute("data-back") : b.getAttribute("data-how");
     doc.body.classList.toggle("on-how", how);
+    renderTabs();
     /* The code view opens with How it works, on the file last read or the confirmation step. */
     if (how) { openFile(S.code || "engine/confirm.py"); }
   }
@@ -686,9 +687,11 @@
   /* ------------------------------------------------------------------ the phone */
   var SCREENS = ["strip", "stage", "insp"];
   function renderTabs() {
+    /* How it works covers the job, so no screen is marked while it's open. */
+    var at = S.view === "how" ? "" : S.screen;
     $("#tabs").innerHTML = SCREENS.map(function (s) {
-      return "<button type='button' data-screen='" + s + "' class='" + (S.screen === s ? "on" : "") + "' aria-current='" +
-        (S.screen === s ? "true" : "false") + "'>" + esc(row("tabs", s)) + "</button>";
+      return "<button type='button' data-screen='" + s + "' class='" + (at === s ? "on" : "") + "' aria-current='" +
+        (at === s ? "true" : "false") + "'>" + esc(row("tabs", s)) + "</button>";
     }).join("");
   }
   function toScreen(name, smooth) {
@@ -753,7 +756,12 @@
     }
     if ((el = t.closest("#reset"))) { reset(); return; }
     if ((el = t.closest("[data-file]"))) { openFile(el.getAttribute("data-file")); return; }
-    if ((el = t.closest("[data-screen]"))) { toScreen(el.getAttribute("data-screen"), true); }
+    if ((el = t.closest("[data-screen]"))) {
+      /* On a phone a tab tapped in How it works goes back to the job, straight to that screen. */
+      var fromHow = S.view === "how";
+      if (fromHow) { setView("job"); }
+      toScreen(el.getAttribute("data-screen"), !fromHow);
+    }
   });
   on("change", function (e) {
     var t = e.target;
@@ -800,7 +808,11 @@
     if (el) { light(el.getAttribute("data-photo") + "/" + el.getAttribute("data-field")); }
   });
   if (win.addEventListener) {
-    win.addEventListener("resize", function () { sizePrint(); renderInset(asset(S.asset)); soonThreads(); });
+    win.addEventListener("resize", function () {
+      sizePrint(); renderInset(asset(S.asset)); soonThreads();
+      // A turn of the phone changes each screen's width, so the marked screen is lined up again.
+      if (phone()) { toScreen(S.screen, false); }
+    });
     win.addEventListener("hashchange", function () { readHash(win.location.hash); renderAll(); });
   }
   var work = $("#work");
@@ -827,6 +839,8 @@
     var h = readHash(win.location ? win.location.hash : "");
     firstLog();
     renderAll();
+    // On a phone the three screens sit side by side, so the one the tabs mark has to be scrolled to at the start.
+    if (phone()) { toScreen(S.screen, false); }
     if (h.t && +h.t >= 1 && +h.t <= STEPS.length) { present(+h.t); }
   }
   FIP.state = function () {
